@@ -1,1 +1,1 @@
-C:\Users\fabio.tonishi\source\repos\AdoCao\AdoCao\AdoCao.UWP\AdoCao.UWP.csproj;x86
+C:\Users\joao.vbarbosa6\Documents\GitHub\AdoCao\AdoCao\AdoCao.UWP\AdoCao.UWP.csproj;x86

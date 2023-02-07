@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Y4kJBsutrvyeXbGp1ej4lE3lyEgthpXbtMvPK7yTSZmLLSfGCzzkOSkJUiZR2XUjbWEyE1cbcfgNzYaTwMafOA==",
+  "dgSpecHash": "akNsrZvCSJptFDqlucQiq98gITMTtbDXlYgqZBeZmXo6bABFryNm5AD8MKaPLjYjqHEbJI4gFz8dRY6XiuoiNw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\joao.vbarbosa6\\Desktop\\AdoCao V10\\AdoCao\\AdoCao\\AdoCao.UWP\\AdoCao.UWP.csproj",
+  "projectFilePath": "C:\\Users\\joao.vbarbosa6\\Documents\\GitHub\\AdoCao\\AdoCao\\AdoCao.UWP\\AdoCao.UWP.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\joao.vbarbosa6\\.nuget\\packages\\firebasedatabase.net\\4.1.0\\firebasedatabase.net.4.1.0.nupkg.sha512",
     "C:\\Users\\joao.vbarbosa6\\.nuget\\packages\\litedb\\4.1.4\\litedb.4.1.4.nupkg.sha512",
@@ -80,6 +80,7 @@
     "C:\\Users\\joao.vbarbosa6\\.nuget\\packages\\system.threading\\4.3.0\\system.threading.4.3.0.nupkg.sha512",
     "C:\\Users\\joao.vbarbosa6\\.nuget\\packages\\system.threading.tasks\\4.3.0\\system.threading.tasks.4.3.0.nupkg.sha512",
     "C:\\Users\\joao.vbarbosa6\\.nuget\\packages\\win2d.uwp\\1.20.0\\win2d.uwp.1.20.0.nupkg.sha512",
+    "C:\\Users\\joao.vbarbosa6\\.nuget\\packages\\xam.plugin.media\\5.0.1\\xam.plugin.media.5.0.1.nupkg.sha512",
     "C:\\Users\\joao.vbarbosa6\\.nuget\\packages\\xamarin.essentials\\1.7.0\\xamarin.essentials.1.7.0.nupkg.sha512",
     "C:\\Users\\joao.vbarbosa6\\.nuget\\packages\\xamarin.forms\\5.0.0.2196\\xamarin.forms.5.0.0.2196.nupkg.sha512"
   ],

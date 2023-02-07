@@ -23,6 +23,7 @@ com.google.android.material.tabs.TabLayout;C:\Users\fabio.tonishi\source\repos\A
 com.google.android.material.tabs.TabLayout;C:\Users\fabio.tonishi\source\repos\AdoCao\AdoCao\AdoCao.Android\obj\Debug\130\lp\55\jl\res\layout\tabbar.xml
 declare-styleable;C:\Users\fabio.tonishi\source\repos\AdoCao\AdoCao\AdoCao.Android\obj\Debug\130\lp\55\jl\res\values\attrs.xml
 external-cache-path;C:\Users\fabio.tonishi\source\repos\AdoCao\AdoCao\AdoCao.Android\obj\Debug\130\lp\54\jl\res\xml\xamarin_essentials_fileprovider_file_paths.xml
+external-files-path;obj\Debug\130\res\xml\file_path.xml
 external-path;C:\Users\fabio.tonishi\source\repos\AdoCao\AdoCao\AdoCao.Android\obj\Debug\130\lp\54\jl\res\xml\xamarin_essentials_fileprovider_file_paths.xml
 foreground;obj\Debug\130\res\mipmap-anydpi-v26\icon.xml
 foreground;obj\Debug\130\res\mipmap-anydpi-v26\icon_round.xml
@@ -30,6 +31,7 @@ FrameLayout;C:\Users\fabio.tonishi\source\repos\AdoCao\AdoCao\AdoCao.Android\obj
 item;C:\Users\fabio.tonishi\source\repos\AdoCao\AdoCao\AdoCao.Android\obj\Debug\130\lp\55\jl\res\values\styles.xml
 LinearLayout;C:\Users\fabio.tonishi\source\repos\AdoCao\AdoCao\AdoCao.Android\obj\Debug\130\lp\55\jl\res\layout\bottomtablayout.xml
 paths;C:\Users\fabio.tonishi\source\repos\AdoCao\AdoCao\AdoCao.Android\obj\Debug\130\lp\54\jl\res\xml\xamarin_essentials_fileprovider_file_paths.xml
+paths;obj\Debug\130\res\xml\file_path.xml
 resources;C:\Users\fabio.tonishi\source\repos\AdoCao\AdoCao\AdoCao.Android\obj\Debug\130\lp\55\jl\res\values\attrs.xml
 resources;C:\Users\fabio.tonishi\source\repos\AdoCao\AdoCao\AdoCao.Android\obj\Debug\130\lp\55\jl\res\values\strings.xml
 resources;C:\Users\fabio.tonishi\source\repos\AdoCao\AdoCao\AdoCao.Android\obj\Debug\130\lp\55\jl\res\values\styles.xml
