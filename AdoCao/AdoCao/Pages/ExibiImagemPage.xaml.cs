@@ -29,12 +29,31 @@ namespace AdoCao.Pages
                 ExibirFoto(midia);
                 //Recarrega a pagina com a foto
                 exibirMediaEventHandler?.Invoke(midia, EventArgs.Empty);
+            }else
+            {
+                await DisplayAlert("Atenção", "Não foi possível exibir a foto", "Fechar");
+                return;
             }
         }
 
-        private void PegarFoto_Clicked(object sender, EventArgs e)
+        private async void PegarFoto_Clicked(object sender, EventArgs e)
         {
-
+            //Tira Foto
+            var midia = await Helpers.CameraHelper.PegarFoto();
+            //Verifica se tem uma foto
+            if (midia != null)
+            {
+                ExibirFoto(midia);
+                //Recarrega a pagina com a foto
+                exibirMediaEventHandler?.Invoke(midia, EventArgs.Empty);
+                //Galeria (como se fosse para uma nova página)
+                await Navigation.PopModalAsync();
+            }
+            else
+            {
+                await DisplayAlert("Atenção", "Não foi possível exibir a foto", "Fechar");
+                return;
+            }
         }
 
 

@@ -7,15 +7,16 @@
             <ListView.ItemTemplate>
                 <DataTemplate>
                     <ViewCell>
-                        <StackLayout>
-                            <Image Source="{Binding ProfilePicture}" Width="100" Height="100"/>
-                            <StackLayout VerticalOptions="Center">
-                                <Label Text="{Binding Name}" />
-                                <Label Text="{Binding Breed}" />
-                                <Label Text="{Binding Gender}" />
+                        <StackLayout BackgroundColor="#eee">
+                            <StackLayout Orientation="Horizontal">
+                                <Image Source="{Binding image}" />
+                                <Label Text="{Binding Name}"
+                                TextColor="#f35e20" />
+                                <Label Text="{Binding Gender}"
+                                TextColor="#503026" />
                             </StackLayout>
                         </StackLayout>
-                    </ViewCell> 
+                    </ViewCell>
                 </DataTemplate>
             </ListView.ItemTemplate>
         </ListView>

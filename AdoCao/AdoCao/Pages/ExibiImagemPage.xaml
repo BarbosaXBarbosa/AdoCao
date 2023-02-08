@@ -10,7 +10,8 @@
             <Button x:Name="PegarFoto"
                     Text="Album"
                     Clicked="PegarFoto_Clicked"/>
-
+            <Image x:Name="imgFoto"
+                   Aspect="AspectFit"/>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

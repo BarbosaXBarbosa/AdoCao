@@ -34,10 +34,17 @@ namespace AdoCao.Pages
                 IconImageSource = ""
             };
 
+            var pagina4 = new ExibiImagemPage()
+            {
+                Title = "Foto",
+                IconImageSource = ""
+            };
+
             //Adiciona as paginas na Tabbed
             this.Children.Add(pagina1);
             this.Children.Add(pagina2);
             this.Children.Add(pagina3);
+            this.Children.Add(pagina4);
         }
     }
 }
