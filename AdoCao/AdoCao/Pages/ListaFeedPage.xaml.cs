@@ -15,22 +15,22 @@ namespace AdoCao.Pages
         public ListaFeedPage()
         {
             InitializeComponent();
-            ProfileListView.ItemsSource = GetProfiles();
+            PetsListView.ItemsSource = GetProfiles();
         }
-        public class Profile
+        public class Pets
         {
             public string Name { get; set; }
             public string Breed { get; set; }
             public string Gender { get; set; }
-            public string ProfilePicture { get; set; }
+            public string PetPicture { get; set; }
         }
-        public List<Profile> GetProfiles()
+        public List<Pets> GetProfiles()
         {
-            return new List<Profile>
+            return new List<Pets>
             {
-                new Profile { Name = "Fluffy", Breed = "Persian", Gender = "Female", ProfilePicture = "fluffy.jpg" },
-                new Profile { Name = "Buddy", Breed = "Labrador", Gender = "Male", ProfilePicture = "buddy.jpg" },
-                new Profile { Name = "Daisy", Breed = "Poodle", Gender = "Female", ProfilePicture = "daisy.jpg" }
+                new Pets { Name = "Xaninha", Breed = "Persa", Gender = "Femêa", PetPicture = "pet1.jpg" },
+                new Pets { Name = "Rafael", Breed = "Labrador", Gender = "Macho", PetPicture = "pet2.jpg" },
+                new Pets { Name = "Mel", Breed = "Poodle", Gender = "Femêa", PetPicture = "pet3.jpg" }
             };
         }
     }

@@ -9,7 +9,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AdoCao.Android", "AdoCao\Ad
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AdoCao.iOS", "AdoCao\AdoCao.iOS\AdoCao.iOS.csproj", "{EF33B08B-DA51-43F9-BA44-88F56C7DAA31}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AdoCao", "AdoCao\AdoCao\AdoCao.csproj", "{C7A89826-7C51-4DF6-86FB-BD4181AFFC0A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AdoCao", "AdoCao\AdoCao\AdoCao.csproj", "{C7A89826-7C51-4DF6-86FB-BD4181AFFC0A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

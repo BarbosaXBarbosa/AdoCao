@@ -34,7 +34,9 @@ namespace AdoCao
         {
             InitializeComponent();
 
-            MainPage = new NavigationPage(new LoginUsuarioPage());
+           // MainPage = new NavigationPage(new LoginUsuarioPage());
+
+            MainPage = new NavigationPage(new ListaFeedPage());
         }
 
         protected override void OnStart()
