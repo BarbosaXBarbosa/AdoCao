@@ -105,12 +105,12 @@
     </AppxManifest>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="pet1.jpg" />
-    <Content Include="pet2.jpg" />
+    <Content Include="Imagens\pet1.jpg" />
+    <Content Include="Imagens\pet2.jpg" />
     <Content Include="Assets\LargeTile.scale-100.png" />
     <Content Include="Assets\LargeTile.scale-200.png" />
     <Content Include="Assets\LargeTile.scale-400.png" />
-    <Content Include="pet3.jpg" />
+    <Content Include="Imagens\pet3.jpg" />
     <Content Include="Assets\SmallTile.scale-100.png" />
     <Content Include="Assets\SmallTile.scale-200.png" />
     <Content Include="Assets\SmallTile.scale-400.png" />

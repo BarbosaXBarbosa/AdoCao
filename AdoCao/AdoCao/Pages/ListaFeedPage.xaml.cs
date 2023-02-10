@@ -23,14 +23,15 @@ namespace AdoCao.Pages
             public string Breed { get; set; }
             public string Gender { get; set; }
             public string PetPicture { get; set; }
+            public bool Addopted { get; set; }  
         }
         public List<Pets> GetProfiles()
         {
             return new List<Pets>
             {
-                new Pets { Name = "Xaninha", Breed = "Persa", Gender = "Femêa", PetPicture = "pet1.jpg" },
-                new Pets { Name = "Rafael", Breed = "Labrador", Gender = "Macho", PetPicture = "pet2.jpg" },
-                new Pets { Name = "Mel", Breed = "Poodle", Gender = "Femêa", PetPicture = "pet3.jpg" }
+                new Pets { Name = "Xaninha", Breed = "Persa", Gender = "Femêa", PetPicture = "Imagens/pet1.jpg", Addopted = false },
+                new Pets { Name = "Rafael", Breed = "Labrador", Gender = "Macho", PetPicture = "Imagens/pet2.jpg", Addopted = false  },
+                new Pets { Name = "Mel", Breed = "Poodle", Gender = "Femêa", PetPicture = "Imagens/pet3.jpg" , Addopted = false }
             };
         }
     }

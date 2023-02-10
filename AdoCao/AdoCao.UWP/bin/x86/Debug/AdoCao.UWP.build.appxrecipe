@@ -94,14 +94,14 @@
     <AppxPackagedFile Include="C:\Users\joao.vbarbosa6\.nuget\packages\xamarin.forms\5.0.0.2196\lib\uap10.0.16299\Xamarin.Forms.Platform.UAP\Xamarin.Forms.Platform.UAP.xr.xml">
       <PackagePath>Xamarin.Forms.Platform.UAP\Xamarin.Forms.Platform.UAP.xr.xml</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\joao.vbarbosa6\Documents\GitHub\AdoCao\AdoCao\AdoCao.UWP\pet1.jpg">
-      <PackagePath>pet1.jpg</PackagePath>
+    <AppxPackagedFile Include="C:\Users\joao.vbarbosa6\Documents\GitHub\AdoCao\AdoCao\AdoCao.UWP\Imagens\pet1.jpg">
+      <PackagePath>Imagens\pet1.jpg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\joao.vbarbosa6\Documents\GitHub\AdoCao\AdoCao\AdoCao.UWP\pet2.jpg">
-      <PackagePath>pet2.jpg</PackagePath>
+    <AppxPackagedFile Include="C:\Users\joao.vbarbosa6\Documents\GitHub\AdoCao\AdoCao\AdoCao.UWP\Imagens\pet2.jpg">
+      <PackagePath>Imagens\pet2.jpg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\joao.vbarbosa6\Documents\GitHub\AdoCao\AdoCao\AdoCao.UWP\pet3.jpg">
-      <PackagePath>pet3.jpg</PackagePath>
+    <AppxPackagedFile Include="C:\Users\joao.vbarbosa6\Documents\GitHub\AdoCao\AdoCao\AdoCao.UWP\Imagens\pet3.jpg">
+      <PackagePath>Imagens\pet3.jpg</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\joao.vbarbosa6\Documents\GitHub\AdoCao\AdoCao\AdoCao.UWP\Assets\LargeTile.scale-100.png">
       <PackagePath>Assets\LargeTile.scale-100.png</PackagePath>

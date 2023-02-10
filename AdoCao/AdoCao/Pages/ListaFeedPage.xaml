@@ -1,19 +1,22 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="AdoCao.Pages.ListaFeedPage">
+             x:Class="AdoCao.Pages.ListaFeedPage" >
     <ContentPage.Content>
-        <ListView x:Name="PetsListView">
+        <ListView x:Name="PetsListView"
+                  Margin="0,50,0,0">
             <ListView.ItemTemplate>
                 <DataTemplate>
                     <ViewCell>
-                        <StackLayout VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand" 
-                                     BackgroundColor="White" Scale="1">
+                        <StackLayout VerticalOptions="CenterAndExpand" HorizontalOptions="Fill" 
+                                     BackgroundColor="White" Scale="1"
+                                     Margin="0,2,0,0">
                             <StackLayout Orientation="Horizontal"
-                                         HorizontalOptions="Fill">
-                                <Frame CornerRadius="200"
-                                       HeightRequest="100"
-                                       WidthRequest="100"
+                                         HorizontalOptions="CenterAndExpand">
+                                <Frame CornerRadius="400"
+                                       BorderColor="Black"
+                                       HeightRequest="150"
+                                       WidthRequest="150"
                                        Padding="0"
                                        Margin="5">
                                     <Image Source="{Binding PetPicture}"
@@ -23,13 +26,20 @@
                                 </Frame>
                                 
                                 <StackLayout Orientation="Vertical"
-                                         Margin="10,0,0,0">
+                                         Margin="50,0,0,0">
                                     <Label Text="{Binding Name}"
-                                           TextColor="#f35e20" />
+                                           TextColor="#f35e20"
+                                           FontSize="Medium"/>
                                     <Label Text="{Binding Gender}"
-                                           TextColor="#503026" />
+                                           TextColor="#503026"
+                                           FontSize="Medium"/>
                                     <Label Text="{Binding Breed}"
-                                           TextColor="Black" />
+                                           TextColor="Black"
+                                           FontSize="Medium"/>
+                                </StackLayout>
+
+                                <StackLayout>
+                                    <Image Source="{Binding Addopted}}"/>
                                 </StackLayout>
                             </StackLayout>
                         </StackLayout>

@@ -30,13 +30,13 @@
     <AppXManifest Include="C:\Users\joao.vbarbosa6\Documents\GitHub\AdoCao\AdoCao\AdoCao.UWP\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2023-02-08T23:26:16.077</Modified>
+      <Modified>2023-02-09T22:31:18.980</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\joao.vbarbosa6\Documents\GitHub\AdoCao\AdoCao\AdoCao.UWP\bin\x86\Debug\AdoCao.UWP.exe">
       <PackagePath>entrypoint\AdoCao.UWP.exe</PackagePath>
-      <Modified>2023-02-08T23:26:14.664</Modified>
+      <Modified>2023-02-09T22:31:15.700</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\joao.vbarbosa6\.nuget\packages\firebasedatabase.net\4.1.0\lib\netstandard2.0\Firebase.dll">
       <PackagePath>Firebase.dll</PackagePath>
@@ -112,7 +112,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\joao.vbarbosa6\Documents\GitHub\AdoCao\AdoCao\AdoCao\bin\Debug\netstandard2.0\AdoCao.dll">
       <PackagePath>AdoCao.dll</PackagePath>
-      <Modified>2023-02-09T00:17:14.809</Modified>
+      <Modified>2023-02-09T22:31:09.245</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\joao.vbarbosa6\.nuget\packages\win2d.uwp\1.20.0\lib\uap10.0\Microsoft.Graphics.Canvas.winmd">
       <PackagePath>Microsoft.Graphics.Canvas.winmd</PackagePath>
@@ -126,16 +126,16 @@
       <PackagePath>Xamarin.Forms.Platform.UAP\Xamarin.Forms.Platform.UAP.xr.xml</PackagePath>
       <Modified>2021-10-14T09:49:54.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\joao.vbarbosa6\Documents\GitHub\AdoCao\AdoCao\AdoCao.UWP\pet1.jpg">
-      <PackagePath>pet1.jpg</PackagePath>
+    <AppxPackagedFile Include="C:\Users\joao.vbarbosa6\Documents\GitHub\AdoCao\AdoCao\AdoCao.UWP\Imagens\pet1.jpg">
+      <PackagePath>Imagens\pet1.jpg</PackagePath>
       <Modified>2023-02-08T23:22:17.804</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\joao.vbarbosa6\Documents\GitHub\AdoCao\AdoCao\AdoCao.UWP\pet2.jpg">
-      <PackagePath>pet2.jpg</PackagePath>
+    <AppxPackagedFile Include="C:\Users\joao.vbarbosa6\Documents\GitHub\AdoCao\AdoCao\AdoCao.UWP\Imagens\pet2.jpg">
+      <PackagePath>Imagens\pet2.jpg</PackagePath>
       <Modified>2023-02-08T23:22:17.810</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\joao.vbarbosa6\Documents\GitHub\AdoCao\AdoCao\AdoCao.UWP\pet3.jpg">
-      <PackagePath>pet3.jpg</PackagePath>
+    <AppxPackagedFile Include="C:\Users\joao.vbarbosa6\Documents\GitHub\AdoCao\AdoCao\AdoCao.UWP\Imagens\pet3.jpg">
+      <PackagePath>Imagens\pet3.jpg</PackagePath>
       <Modified>2023-02-08T23:22:17.798</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\joao.vbarbosa6\Documents\GitHub\AdoCao\AdoCao\AdoCao.UWP\Assets\LargeTile.scale-100.png">
@@ -283,11 +283,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\joao.vbarbosa6\Documents\GitHub\AdoCao\AdoCao\AdoCao.UWP\bin\x86\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
-      <Modified>2023-02-08T23:26:14.570</Modified>
+      <Modified>2023-02-09T22:31:15.584</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\joao.vbarbosa6\Documents\GitHub\AdoCao\AdoCao\AdoCao.UWP\bin\x86\Debug\MainPage.xbf">
       <PackagePath>MainPage.xbf</PackagePath>
-      <Modified>2023-02-08T23:26:14.570</Modified>
+      <Modified>2023-02-09T22:31:15.584</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.UniversalCRT.Debug\10.0.22000.0\\redist\Debug\x86\ucrtbased.dll">
       <PackagePath>ucrtbased.dll</PackagePath>
@@ -303,11 +303,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\joao.vbarbosa6\Documents\GitHub\AdoCao\AdoCao\AdoCao.UWP\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2023-02-08T23:26:15.063</Modified>
+      <Modified>2023-02-09T22:31:17.632</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\joao.vbarbosa6\Documents\GitHub\AdoCao\AdoCao\AdoCao.UWP\bin\x86\Debug\Core\AdoCao.UWP.exe">
       <PackagePath>AdoCao.UWP.exe</PackagePath>
-      <Modified>2023-02-08T23:26:16.070</Modified>
+      <Modified>2023-02-09T22:31:18.971</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

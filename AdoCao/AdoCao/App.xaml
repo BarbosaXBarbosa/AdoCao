@@ -3,6 +3,14 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="AdoCao.App">
     <Application.Resources>
-
+        
+        
+        <ResourceDictionary>
+            <Color x:Key="textColor">Green</Color>
+            <Style TargetType="Label">
+                <Setter Property="TextColor" 
+                        Value="{DynamicResource textColor}" />
+            </Style>
+        </ResourceDictionary>
     </Application.Resources>
 </Application>
