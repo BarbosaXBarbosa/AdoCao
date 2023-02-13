@@ -11,7 +11,7 @@ namespace AdoCao.Services
 {
     public  class FirebaseService
     {
-        public readonly string urlFirebase = @"https://senactecinfo48-default-rtdb.firebaseio.com/";
+        public readonly string urlFirebase = @"https://adocao-b919c-default-rtdb.firebaseio.com/";
 
     }
 }

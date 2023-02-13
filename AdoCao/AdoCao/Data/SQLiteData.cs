@@ -18,7 +18,7 @@ namespace AdoCao.Data
         {
             //Inicializa a conexao com o BD
             _conexaoBD = new SQLiteAsyncConnection(path);
-            
+
             //Configura as tabelas do banco de dados
             _conexaoBD.CreateTableAsync<Usuario>().Wait();
             //_conexaoBD.CreateTableAsync<NovoObjeto>().Wait();
@@ -26,6 +26,7 @@ namespace AdoCao.Data
             //Habilita a operação das tabelas de acordo com as plataformas de S.O
             UsuarioDataTable = new UsuarioData(_conexaoBD);
         }
+
 
     }
 }
