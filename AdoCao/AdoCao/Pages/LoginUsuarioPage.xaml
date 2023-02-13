@@ -1,32 +1,62 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="AdoCao.Pages.LoginUsuarioPage" Scale="1.5">
+             x:Class="AdoCao.Pages.LoginUsuarioPage">
     <ContentPage.Content>
-        <StackLayout VerticalOptions="CenterAndExpand"
+        <StackLayout VerticalOptions="Center"
                      Margin="16"
-                     Padding="16" WidthRequest="60">
+                     Padding="16">
+
+
             <Label x:Name="lblTitulo" 
                    Text="AdoCão" 
                    FontSize="Title" 
-                   HorizontalOptions="Center" Margin="0,0,0,20"/>
-            <StackLayout Orientation="Vertical"
-                         HorizontalOptions="CenterAndExpand" WidthRequest="200">
-                <Label x:Name="lblEmail" Text="E-mail" />
-                <Entry x:Name="txtEmail" Placeholder="seu@email.com.br"/>
-                <Label x:Name="lblSenha" Text="Senha"/>
-                <Entry x:Name="txtSenha" Placeholder="********" IsPassword="True" />
-                
-                <StackLayout Margin="0,20,0,0">
-                    <Button x:Name="btnEntrar" Text="Entrar" Clicked="btnEntrar_Clicked" />
-                    <Button x:Name="btnRegistrar" 
-                    Text="Registre-se" 
+                   HorizontalOptions="Center"/>
+
+            <Label x:Name ="lblLogin"
+                   Text="Login"
+                   FontSize="100"                  
+                   HorizontalOptions="Center"/>
+
+            <Label x:Name="lblEmail" Text="E-mail" />
+            <Entry x:Name="txtEmail" Placeholder="Digite seu e-mail"/>
+
+            <Label x:Name="lblSenha" Text="Senha"/>
+            <Entry x:Name="txtSenha" Placeholder="********" IsPassword="True" />
+
+            <Button x:Name="btnEntrar"
+                    Text="Entrar" 
+                    Clicked="btnEntrar_Clicked"
+                    FontAttributes="Bold"/>
+
+            <Button x:Name="btnRegistrar" 
+                    Text="Cadastre-se" 
+                    TextColor="Blue"
+                    BackgroundColor="#0000"
                     Clicked="btnRegistrar_Clicked"/>
-                </StackLayout>
-               
-            </StackLayout>
-            
-            
+
+
+            <Label x:Name="Siganos" 
+                   Text="Visite nossas redes sociais"
+                   FontSize="40"
+                   HorizontalOptions="Center"/>
+
+            <Button Text="Instagram"
+               TextColor="White"
+        BackgroundColor="Pink"/>
+
+            <Button Text="Facebook"
+        TextColor="White"
+        BackgroundColor="Blue"/>
+
+            <Button Text="YouTube"
+        TextColor="White"
+        BackgroundColor="#800000"/>
+
+
+
+
+
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

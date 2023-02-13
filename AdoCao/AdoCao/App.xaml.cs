@@ -49,7 +49,7 @@ namespace AdoCao
 
             //MainPage = new NavigationPage(new LoginUsuarioPage());
 
-            MainPage = new NavigationPage(new RegistraDogPage());
+            MainPage = new NavigationPage(new LoginUsuarioPage());
         }
 
         protected override void OnStart()
