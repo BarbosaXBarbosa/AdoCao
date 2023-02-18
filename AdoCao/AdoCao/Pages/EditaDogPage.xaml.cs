@@ -34,7 +34,6 @@ namespace AdoCao.Pages
 
         {
             if (string.IsNullOrWhiteSpace(_cachorro.NomeDog) ||
-                string.IsNullOrWhiteSpace(_cachorro.SexoDog) ||
                 string.IsNullOrWhiteSpace(_cachorro.RacaDog) ||
                 string.IsNullOrWhiteSpace(_cachorro.RuaDog) ||
                 string.IsNullOrWhiteSpace(_cachorro.NumeroDog) ||

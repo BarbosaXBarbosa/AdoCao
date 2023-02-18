@@ -27,8 +27,18 @@
             <Label x:Name="lblNomeDog" Text="Nome do Cachorro" />
             <Entry x:Name="txtNomeDog" Text="{Binding NomeDog}" Placeholder="Insira o Nome do Cachorro" />
             <Label x:Name="lblSexoDog" Text="Sexo" />
-            <Entry x:Name="txtSexoDog" Text="{Binding SexoDog}" Placeholder="Insira o Sexo do Cachorro"/>
-            <Label x:Name="lblRacaDog" Text="Raça"/>
+                <StackLayout>
+                    <Label Text="Sexo:" />
+                    <Picker SelectedItem="{Binding Sexo, Mode=TwoWay}">
+                        <Picker.ItemsSource>
+                            <x:Array Type="{x:Type x:String}">
+                                <x:String>Macho</x:String>
+                                <x:String>Fêmea</x:String>
+                            </x:Array>
+                        </Picker.ItemsSource>
+                    </Picker>
+                </StackLayout>
+                <Label x:Name="lblRacaDog" Text="Raça"/>
             <Entry x:Name="txtRacaDog" Text="{Binding RacaDog}" Placeholder="Insira a Raça do Cachorro" />
             <Label x:Name="lblRuaDog" Text="Rua"/>
             <Entry x:Name="txtRuaDog" Text="{Binding RuaDog}" Placeholder="Insira a rua do Cachorro"/>

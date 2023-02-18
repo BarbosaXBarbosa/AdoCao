@@ -15,6 +15,7 @@ namespace AdoCao.Models
         [MaxLength(100)]
         public string NomeDog { get; set; }
         [MaxLength(100)]
+        public SexoEnum SexoDoger { get; set; }
         public string SexoDog { get; set; }
         [MaxLength(100)]
         public string RacaDog { get; set; }
@@ -38,6 +39,11 @@ namespace AdoCao.Models
         public Cachorro()
         {
             IdDog = Guid.NewGuid(); 
+        }
+        public enum SexoEnum
+        {
+            Macho,
+            Femea
         }
     }
 }
