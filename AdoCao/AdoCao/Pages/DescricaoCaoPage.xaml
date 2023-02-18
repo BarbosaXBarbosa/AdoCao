@@ -2,49 +2,63 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              xmlns:local="clr-namespace:AdoCao.ViewModel"
+             xmlns:xct="http://xamarin.com/schemas/2020/toolkit"
              x:Class="AdoCao.Pages.DescricaoCaoPage">
     <ContentPage.BindingContext>
         <local:ItemListViewModel/>
     </ContentPage.BindingContext>
-    
+    <ContentPage.Resources>
+        <ResourceDictionary>
+            <xct:ByteArrayToImageSourceConverter x:Key="ByteArrayToImageSourceConverter" />
+        </ResourceDictionary>
+    </ContentPage.Resources>
+
     <ContentPage.Content>
         <StackLayout VerticalOptions="CenterAndExpand" 
                 HorizontalOptions="CenterAndExpand" >
 
-            <CarouselView ItemsSource="{Binding ItemList}"
-                           VerticalOptions="CenterAndExpand" 
-                           HorizontalOptions="CenterAndExpand"
+            <CarouselView x:Name="CarouselListView"
+                          ItemsSource="{Binding ItemList}"
+                          VerticalOptions="CenterAndExpand" 
+                          HorizontalOptions="CenterAndExpand" Margin="0"
                           >
                 <CarouselView.ItemTemplate>
                     <DataTemplate>
-                        <StackLayout>
-                          
-                                <StackLayout>
-                                    <Image Source="{Binding ImagemDog}"
+                        <ViewCell>
+                            <Image Source="{Binding ImagemDog, Converter={StaticResource ByteArrayToImageSourceConverter}}"
+                                       Aspect="AspectFit"
                                        HeightRequest="200"
-                                       WidthRequest="200"
-                                          ></Image>
-                                </StackLayout>
-                          
-                            <Label Text="{Binding Nome}" />
-                        </StackLayout>
+                                       WidthRequest="200"></Image>
+                        </ViewCell>
+
                     </DataTemplate>
                 </CarouselView.ItemTemplate>
             </CarouselView>
-            <StackLayout Orientation="Horizontal">
-                <Label Text="Nome: " />
-                <Label x:Name="txtNome" Text="{Binding NomeDog}" />
+            <StackLayout Margin="0,0,0,200">
+                <StackLayout Orientation="Horizontal">
+                    <Label x:Name="txtNome" 
+                       Text="{Binding NomeDog}" 
+                       FontSize="Title" 
+                       HorizontalOptions="CenterAndExpand" Margin="0,0,0,50"/>
+                </StackLayout>
+                <StackLayout Orientation="Vertical" Margin="300,0,0,0" Scale="1.25">
+                    <StackLayout Orientation="Horizontal">
+                        <Label Text="Sexo:" />
+                        <Label x:Name="txtSexo" Text="{Binding SexoDog}" />
+                    </StackLayout>
+                    <StackLayout Orientation="Horizontal">
+                        <Label Text="Raça:" />
+                        <Label x:Name="txtRaca" Text="{Binding RacaDog}" />
+                    </StackLayout>
+                </StackLayout>
             </StackLayout>
-            <StackLayout Orientation="Horizontal">
-                <Label Text="Sexo:" />
-                <Label x:Name="txtSexo" Text="{Binding SexoDog}" />
+
+            <StackLayout Orientation="Horizontal"
+                         HorizontalOptions="Center">
+                <Button x:Name="btnEditar" Text="Editar" Clicked="btnEditar_Clicked" Margin="0,0,10,0" />
+                <Button x:Name="btnDeletar" Text="Deletar" Clicked="btnDeletar_Clicked" Margin="10,0,0,0" />
             </StackLayout>
-            <StackLayout Orientation="Horizontal">
-                <Label Text="Raça:" />
-                <Label x:Name="txtRaca" Text="{Binding RacaDog}" />
-            </StackLayout>
-            <Button x:Name="btnEditar" Text="Editar" Clicked="btnEditar_Clicked" />
-            <Button x:Name="btnDeletar" Text="Deletar" Clicked="btnDeletar_Clicked" />
+            
         </StackLayout>
         
 

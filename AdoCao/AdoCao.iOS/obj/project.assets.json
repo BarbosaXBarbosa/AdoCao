@@ -2411,11 +2411,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\asobr\\source\\repos\\BarbosaXBarbosa\\AdoCao\\AdoCao\\AdoCao\\AdoCao.iOS\\AdoCao.iOS.csproj",
+      "projectUniqueName": "C:\\Users\\asobr\\source\\repos\\BarbosaXBarbosa\\AdoCao\\AdoCao\\AdoCao.iOS\\AdoCao.iOS.csproj",
       "projectName": "AdoCao.iOS",
-      "projectPath": "C:\\Users\\asobr\\source\\repos\\BarbosaXBarbosa\\AdoCao\\AdoCao\\AdoCao\\AdoCao.iOS\\AdoCao.iOS.csproj",
+      "projectPath": "C:\\Users\\asobr\\source\\repos\\BarbosaXBarbosa\\AdoCao\\AdoCao\\AdoCao.iOS\\AdoCao.iOS.csproj",
       "packagesPath": "C:\\Users\\asobr\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\asobr\\source\\repos\\BarbosaXBarbosa\\AdoCao\\AdoCao\\AdoCao\\AdoCao.iOS\\obj\\",
+      "outputPath": "C:\\Users\\asobr\\source\\repos\\BarbosaXBarbosa\\AdoCao\\AdoCao\\AdoCao.iOS\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [
@@ -2438,8 +2438,8 @@
       "frameworks": {
         "xamarinios10": {
           "projectReferences": {
-            "C:\\Users\\asobr\\source\\repos\\BarbosaXBarbosa\\AdoCao\\AdoCao\\AdoCao\\AdoCao\\AdoCao.csproj": {
-              "projectPath": "C:\\Users\\asobr\\source\\repos\\BarbosaXBarbosa\\AdoCao\\AdoCao\\AdoCao\\AdoCao\\AdoCao.csproj"
+            "C:\\Users\\asobr\\source\\repos\\BarbosaXBarbosa\\AdoCao\\AdoCao\\AdoCao\\AdoCao.csproj": {
+              "projectPath": "C:\\Users\\asobr\\source\\repos\\BarbosaXBarbosa\\AdoCao\\AdoCao\\AdoCao\\AdoCao.csproj"
             }
           }
         }

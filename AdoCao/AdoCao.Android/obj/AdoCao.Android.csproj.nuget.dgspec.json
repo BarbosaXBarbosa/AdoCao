@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\asobr\\source\\repos\\BarbosaXBarbosa\\AdoCao\\AdoCao\\AdoCao\\AdoCao.Android\\AdoCao.Android.csproj": {}
+    "C:\\Users\\asobr\\source\\repos\\BarbosaXBarbosa\\AdoCao\\AdoCao\\AdoCao.Android\\AdoCao.Android.csproj": {}
   },
   "projects": {
-    "C:\\Users\\asobr\\source\\repos\\BarbosaXBarbosa\\AdoCao\\AdoCao\\AdoCao\\AdoCao.Android\\AdoCao.Android.csproj": {
+    "C:\\Users\\asobr\\source\\repos\\BarbosaXBarbosa\\AdoCao\\AdoCao\\AdoCao.Android\\AdoCao.Android.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\asobr\\source\\repos\\BarbosaXBarbosa\\AdoCao\\AdoCao\\AdoCao\\AdoCao.Android\\AdoCao.Android.csproj",
+        "projectUniqueName": "C:\\Users\\asobr\\source\\repos\\BarbosaXBarbosa\\AdoCao\\AdoCao\\AdoCao.Android\\AdoCao.Android.csproj",
         "projectName": "AdoCao.Android",
-        "projectPath": "C:\\Users\\asobr\\source\\repos\\BarbosaXBarbosa\\AdoCao\\AdoCao\\AdoCao\\AdoCao.Android\\AdoCao.Android.csproj",
+        "projectPath": "C:\\Users\\asobr\\source\\repos\\BarbosaXBarbosa\\AdoCao\\AdoCao\\AdoCao.Android\\AdoCao.Android.csproj",
         "packagesPath": "C:\\Users\\asobr\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\asobr\\source\\repos\\BarbosaXBarbosa\\AdoCao\\AdoCao\\AdoCao\\AdoCao.Android\\obj\\",
+        "outputPath": "C:\\Users\\asobr\\source\\repos\\BarbosaXBarbosa\\AdoCao\\AdoCao\\AdoCao.Android\\obj\\",
         "projectStyle": "PackageReference",
         "skipContentFileWrite": true,
         "fallbackFolders": [
@@ -34,8 +34,8 @@
         "frameworks": {
           "monoandroid13.0": {
             "projectReferences": {
-              "C:\\Users\\asobr\\source\\repos\\BarbosaXBarbosa\\AdoCao\\AdoCao\\AdoCao\\AdoCao\\AdoCao.csproj": {
-                "projectPath": "C:\\Users\\asobr\\source\\repos\\BarbosaXBarbosa\\AdoCao\\AdoCao\\AdoCao\\AdoCao\\AdoCao.csproj"
+              "C:\\Users\\asobr\\source\\repos\\BarbosaXBarbosa\\AdoCao\\AdoCao\\AdoCao\\AdoCao.csproj": {
+                "projectPath": "C:\\Users\\asobr\\source\\repos\\BarbosaXBarbosa\\AdoCao\\AdoCao\\AdoCao\\AdoCao.csproj"
               }
             }
           }
@@ -68,14 +68,14 @@
         }
       }
     },
-    "C:\\Users\\asobr\\source\\repos\\BarbosaXBarbosa\\AdoCao\\AdoCao\\AdoCao\\AdoCao\\AdoCao.csproj": {
+    "C:\\Users\\asobr\\source\\repos\\BarbosaXBarbosa\\AdoCao\\AdoCao\\AdoCao\\AdoCao.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\asobr\\source\\repos\\BarbosaXBarbosa\\AdoCao\\AdoCao\\AdoCao\\AdoCao\\AdoCao.csproj",
+        "projectUniqueName": "C:\\Users\\asobr\\source\\repos\\BarbosaXBarbosa\\AdoCao\\AdoCao\\AdoCao\\AdoCao.csproj",
         "projectName": "AdoCao",
-        "projectPath": "C:\\Users\\asobr\\source\\repos\\BarbosaXBarbosa\\AdoCao\\AdoCao\\AdoCao\\AdoCao\\AdoCao.csproj",
+        "projectPath": "C:\\Users\\asobr\\source\\repos\\BarbosaXBarbosa\\AdoCao\\AdoCao\\AdoCao\\AdoCao.csproj",
         "packagesPath": "C:\\Users\\asobr\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\asobr\\source\\repos\\BarbosaXBarbosa\\AdoCao\\AdoCao\\AdoCao\\AdoCao\\obj\\",
+        "outputPath": "C:\\Users\\asobr\\source\\repos\\BarbosaXBarbosa\\AdoCao\\AdoCao\\AdoCao\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",

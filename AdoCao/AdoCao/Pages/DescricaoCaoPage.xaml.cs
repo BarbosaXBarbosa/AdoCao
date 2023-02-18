@@ -12,17 +12,18 @@ using Xamarin.Forms.Xaml;
 
 namespace AdoCao.Pages
 {
-	[XamlCompilation(XamlCompilationOptions.Compile)]
-	public partial class DescricaoCaoPage : ContentPage
-	{
+    [XamlCompilation(XamlCompilationOptions.Compile)]
+    public partial class DescricaoCaoPage : ContentPage
+    {
         Cachorro _cachorro = new Cachorro();
         CachorroFirebaseService _cachorroFirebaseService;
         public DescricaoCaoPage(Cachorro cachorro)
-		{
-			InitializeComponent ();
+        {
+            InitializeComponent();
             _cachorroFirebaseService = new CachorroFirebaseService();
             this.BindingContext = cachorro;
             _cachorro = cachorro;
+            
         }
 
         private async void btnDeletar_Clicked(object sender, EventArgs e)
