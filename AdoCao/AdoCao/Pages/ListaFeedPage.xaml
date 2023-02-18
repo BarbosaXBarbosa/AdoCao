@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AdoCao.Pages.ListaFeedPage" >
+    <ContentPage.Content>
+        <ListView x:Name="PetsListView"
+                  Margin="0,50,0,0">
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <ViewCell>
+                        <StackLayout VerticalOptions="CenterAndExpand" HorizontalOptions="Fill" 
+                                     BackgroundColor="White" Scale="1"
+                                     Margin="0,2,0,0">
+                            <StackLayout Orientation="Horizontal"
+                                         HorizontalOptions="CenterAndExpand">
+                                <StackLayout.GestureRecognizers>
+                                    <TapGestureRecognizer 
+                                        Tapped="TapGestureRecognizer_Tapped" 
+                                        NumberOfTapsRequired="1" />
+                                </StackLayout.GestureRecognizers>
+                                
+                                <Frame CornerRadius="400"
+                                       BorderColor="Black"
+                                       HeightRequest="150"
+                                       WidthRequest="150"
+                                       Padding="0"
+                                       Margin="5">
+
+                                    <Image Source="{Binding ImagemDog}"
+                                           Aspect="AspectFill"
+                                           HeightRequest="300"
+                                           WidthRequest="300"/>
+                                </Frame>
+
+                                <StackLayout Orientation="Vertical"
+                                         Margin="50,0,0,0"
+                                             >
+                                    <Label Text="{Binding NomeDog}"
+                                           TextColor="#f35e20"
+                                           FontSize="Medium"/>
+                                    <Label Text="{Binding SexoDog}"
+                                           TextColor="#503026"
+                                           FontSize="Medium"/>
+                                    <Label Text="{Binding RacaDog}"
+                                           TextColor="Black"
+                                           FontSize="Medium"/>
+                                </StackLayout>
+
+                                <StackLayout>
+                                    <Image Source="{Binding Addopted}"/>
+                                </StackLayout>
+                            </StackLayout>
+                        </StackLayout>
+                    </ViewCell>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
+    </ContentPage.Content>
+</ContentPage>

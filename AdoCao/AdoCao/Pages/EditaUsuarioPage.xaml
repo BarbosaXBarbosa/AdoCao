@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AdoCao.Pages.EditaUsuarioPage">
+    <ContentPage.Content>
+        <StackLayout VerticalOptions="Fill"
+                     Margin="16"
+                     Padding="16">
+            <Label x:Name="lblTitulo" 
+                   Text="Cadastre-se" 
+                   FontSize="100"
+                   FontAttributes="Italic"
+                   HorizontalOptions="Center"/>
+            <Label x:Name="lblCPF" Text="CPF" />
+            <Entry x:Name="txtCPF" Text="{Binding CPF}" Placeholder="Informe seu CPF"/>
+            <Label x:Name="lblNome" Text="Nome" />
+            <Entry x:Name="txtNome" Text="{Binding Nome}" Placeholder="Informe seu nome" />
+            <Label x:Name="lblEmail" Text="E-mail" />
+            <Entry x:Name="txtEmail" Text="{Binding Email}" Placeholder="seu@email.com.br"/>
+            <Label x:Name="lblSenha" Text="Senha"/>
+            <Entry x:Name="txtSenha" Text="{Binding Senha}" Placeholder="********" IsPassword="True" />
+            <Label x:Name="lblConfirmaSenha" Text="Confirmar Senha" />
+            <Entry x:Name="txtConfirmaSenha" Text="{Binding Confirmasenha}" Placeholder="********" IsPassword="True" />
+            <Label x:Name="lblEndereco" Text="Informe seu endereço" />
+            <Entry x:Name="txtCidade" Text="{Binding Cidade}" Placeholder="Informe sua Cidade" />
+            <Entry x:Name="txtBairro" Text="{Binding Bairro}" Placeholder="Informe seu Bairro" />
+            <Entry x:Name="txtRua" Text="{Binding Rua}" Placeholder="Informe sua Rua" />
+            <Entry x:Name="txtNumber" Text="{Binding Bairro}" Placeholder="Informe o numero da residência" />
+            <Entry x:Name="txtComplemento" Text="{Binding Complemento}" Placeholder="Complemento(Opcional)" />
+            <StackLayout Orientation="Horizontal"
+                         HorizontalOptions="Center">
+                <Button x:Name="btnSalvar" Text="Salvar" Clicked="btnSalvar_Clicked" />
+                <Button x:Name="btnVoltar" Text="Voltar" Clicked="btnVoltar_Clicked" />
+            </StackLayout>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
