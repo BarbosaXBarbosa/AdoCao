@@ -43,7 +43,8 @@ namespace AdoCao.Pages
                 string.IsNullOrWhiteSpace(_cachorro.RuaDog) ||
                 string.IsNullOrWhiteSpace(_cachorro.NumeroDog) ||
                 string.IsNullOrWhiteSpace(_cachorro.CepDog) ||
-                string.IsNullOrWhiteSpace(_cachorro.CidadeDog))
+                string.IsNullOrWhiteSpace(_cachorro.CidadeDog) ||
+                string.IsNullOrWhiteSpace(_cachorro.DescricaoDog))
             {
                 await DisplayAlert("Atenção", "Preencha todas as informações obrigatórias", "Fechar");
                 return;

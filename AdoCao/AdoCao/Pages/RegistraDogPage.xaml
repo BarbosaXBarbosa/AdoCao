@@ -2,6 +2,7 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="AdoCao.Pages.RegistraDogPage">
+    
     <ContentPage.Content>
         <ScrollView>
         <StackLayout VerticalOptions="CenterAndExpand"
@@ -13,15 +14,16 @@
             <Button x:Name="PegarFoto"
                     Text="Album"
                     Clicked="PegarFoto_Clicked" />
+            
             <Image x:Name="imgFoto"
                    Aspect="AspectFit"
-                   Source="{Binding ImagemDog}"
-                   />
-
-            <Label x:Name="lblTitulo" 
+                   Source="{Binding ImagemDog}" />
+                
+                <Label x:Name="lblTitulo" 
                    Text="Cadastro do Cachorro" 
                    FontSize="Title" 
                    HorizontalOptions="Center"/>
+            
             <Label x:Name="lblNomeDog" Text="Nome do Cachorro" />
             <Entry x:Name="txtNomeDog" Text="{Binding NomeDog}" Placeholder="Insira o Nome do Cachorro" />
             <Label x:Name="lblSexoDog" Text="Sexo" />
@@ -38,7 +40,12 @@
             <Entry x:Name="txtCepDog" Text="{Binding CepDog}" Placeholder="Insira o Cep"/>
             <Label x:Name="lblCidadeDog" Text="Cidade"/>
             <Entry x:Name="txtCidadeDog" Text="{Binding CidadeDog}" Placeholder="Insira a Cidade"/>
-            <StackLayout Orientation="Horizontal"
+            
+                <StackLayout Padding="15,30">
+                    <Editor x:Name="edtDescricaoDog" Text="{Binding DescricaoDog}" Placeholder="*Obrigatorio* Descreva com poucas palavras sobre o cachorro" AutoSize="TextChanges"/>
+                </StackLayout>
+            
+                <StackLayout Orientation="Horizontal"
                          HorizontalOptions="Center">
                 <Button x:Name="btnSalvar1" Text="Salvar" Clicked="btnSalvarDog_Clicked" />
                 <Button x:Name="btnVoltar1" Text="Voltar" Clicked="btnVoltarDog_Clicked" />

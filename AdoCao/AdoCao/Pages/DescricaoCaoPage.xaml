@@ -20,7 +20,7 @@
                         <StackLayout>
                           
                                 <StackLayout>
-                                    <Image Source="{Binding ImageUrl}"
+                                    <Image Source="{Binding ImagemDog}"
                                        HeightRequest="200"
                                        WidthRequest="200"
                                           ></Image>
@@ -33,18 +33,20 @@
             </CarouselView>
             <StackLayout Orientation="Horizontal">
                 <Label Text="Nome: " />
-                <Label x:Name="txtNome" Text="Dog" />
+                <Label x:Name="txtNome" Text="{Binding NomeDog}" />
             </StackLayout>
             <StackLayout Orientation="Horizontal">
                 <Label Text="Sexo:" />
-                <Label x:Name="txtSexo" Text="nome" />
+                <Label x:Name="txtSexo" Text="{Binding SexoDog}" />
             </StackLayout>
             <StackLayout Orientation="Horizontal">
                 <Label Text="Raça:" />
-                <Label x:Name="txtRaca" Text="raca" />
+                <Label x:Name="txtRaca" Text="{Binding RacaDog}" />
             </StackLayout>
+            <Button x:Name="btnEditar" Text="Editar" Clicked="btnEditar_Clicked" />
+            <Button x:Name="btnDeletar" Text="Deletar" Clicked="btnDeletar_Clicked" />
         </StackLayout>
-
         
+
     </ContentPage.Content>
 </ContentPage>

@@ -21,20 +21,25 @@ namespace AdoCao.Pages
   
         }
 
+        
         public async void GetCachorrosDono()
         {
             CachorroFirebaseService cachorroFirebaseService;
             cachorroFirebaseService = new CachorroFirebaseService();
             //Obtem a lista de usuarios em nuvem
             var cachorros = await cachorroFirebaseService.ObtemCachorroPorUsuario(App.Usuario.Id);
-            PetsListView.ItemsSource = (System.Collections.IEnumerable)cachorros;
+            PetsListViewDono.ItemsSource = (System.Collections.IEnumerable)cachorros;
 
         }
 
-        private async void TapGestureRecognizer_Tapped(object sender, EventArgs e)
+      /*  private async void TapGestureRecognizer_Tapped(object sender, EventArgs e)
         {
+            Cachorro cachorro = sender as Cachorro;
+            await Navigation.PushAsync(new DescricaoCaoPage(cachorro));
             
-        }
+
+            //Guid Id = (()sender)
+        }*/
 
         private async void btnAddMeuCachorro_Clicked(object sender, EventArgs e)
         {
@@ -43,8 +48,31 @@ namespace AdoCao.Pages
 
         private async void btnEditMeuCachorro_Clicked(object sender, EventArgs e)
         {
-            await Navigation.PushAsync(new RegistraDogPage());
+            //Guid id = 0;
+            //await Navigation.PushAsync(new EditaDogPage(id));
         }
-        
+
+        private void PetsListViewDono_Refreshing(object sender, EventArgs e)
+        {
+            PetsListViewDono.IsRefreshing = true;
+            GetCachorrosDono();
+            PetsListViewDono.IsRefreshing = false;
+        }
+
+        private async void PetsListViewDono_ItemSelected(object sender, SelectedItemChangedEventArgs e)
+        {
+            Cachorro cachorro = e.SelectedItem as Cachorro;
+            await Navigation.PushAsync(new DescricaoCaoPage(cachorro));
+        }
+
+        private void btnExcluirMeuCachorro_Clicked(object sender, SelectedItemChangedEventArgs e)
+        {
+            
+        }
+
+        private void btnExcluirMeuCachorro_Clicked(object sender, EventArgs e)
+        {
+
+        }
     }
 }

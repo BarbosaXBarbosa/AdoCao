@@ -20,12 +20,13 @@ namespace AdoCao.Pages
 
         //Evento para atualizar a pagina
         public event EventHandler exibirMediaEventHandler;
-        public EditaDogPage ()
+        public EditaDogPage (Cachorro cachorro )
         {
-			InitializeComponent (); _cachorro = new Cachorro();
+			InitializeComponent (); 
+            _cachorro = new Cachorro();
             _cachorroFirebaseService = new CachorroFirebaseService();
-
-            this.BindingContext = _cachorro;
+            _cachorro = cachorro;
+            this.BindingContext = cachorro;
         }
 
 
@@ -38,7 +39,8 @@ namespace AdoCao.Pages
                 string.IsNullOrWhiteSpace(_cachorro.RuaDog) ||
                 string.IsNullOrWhiteSpace(_cachorro.NumeroDog) ||
                 string.IsNullOrWhiteSpace(_cachorro.CepDog) ||
-                string.IsNullOrWhiteSpace(_cachorro.CidadeDog))
+                string.IsNullOrWhiteSpace(_cachorro.CidadeDog) ||
+                string.IsNullOrWhiteSpace(_cachorro.DescricaoDog))
             {
                 await DisplayAlert("Atenção", "Preencha todas as informações obrigatórias", "Fechar");
                 return;
@@ -48,7 +50,7 @@ namespace AdoCao.Pages
 
             if (cadastro > 0)
             {
-                await _cachorroFirebaseService.Envia(_cachorro);
+                 _cachorroFirebaseService.AlteraCachorroId(_cachorro.KeyDog);
                 await Navigation.PopAsync();
             }
 

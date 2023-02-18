@@ -7,6 +7,7 @@ using System.Diagnostics;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using Xamarin.Essentials;
 
 namespace AdoCao.Services
 {
@@ -48,10 +49,11 @@ namespace AdoCao.Services
                 RacaDog = cachorro.Object.RacaDog,
                 RuaDog = cachorro.Object.RuaDog,
                 NumeroDog = cachorro.Object.NumeroDog,
+                ImagemDog = cachorro.Object.ImagemDog,
                 ComplementoDog = cachorro.Object.ComplementoDog,
                 CepDog = cachorro.Object.CepDog,
                 CidadeDog = cachorro.Object.CidadeDog,
-                ImagemDog = cachorro.Object.ImagemDog
+                DescricaoDog = cachorro.Object.DescricaoDog
             }).ToList();
 
         }
@@ -67,5 +69,26 @@ namespace AdoCao.Services
             var cachorro = cachorros.Where(e => e.IdDono == IdDono).ToList();
             return cachorro;
         }
+
+        public async void DeletaCachorroId(Guid idDog)
+        {
+            var toDeleteUser = (await _firebaseClient
+                         .Child(nameof(Cachorro).ToString())
+                         .OnceAsync<Cachorro>())
+                         .Where(a => a.Object.IdDog == idDog).FirstOrDefault();
+
+            await _firebaseClient.Child(nameof(Cachorro).ToString()).Child(toDeleteUser.Key).DeleteAsync();
+        }
+
+        public async void AlteraCachorroId(string keyDog)
+        {
+            var cachorroAltera = (await _firebaseClient
+                         .Child(nameof(Cachorro).ToString())
+                         .OnceAsync<Cachorro>())
+                         .Where(a => a.Key == keyDog).FirstOrDefault();
+
+            await _firebaseClient.Child(nameof(Cachorro).ToString()).Child(cachorroAltera.Key).PutAsync(cachorroAltera);
+        }
+
     }
 }

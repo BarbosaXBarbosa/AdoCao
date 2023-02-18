@@ -38,6 +38,11 @@
                 <Entry x:Name="txtCepDog" Text="{Binding CepDog}" Placeholder="Insira o Cep"/>
                 <Label x:Name="lblCidadeDog" Text="Cidade"/>
                 <Entry x:Name="txtCidadeDog" Text="{Binding CidadeDog}" Placeholder="Insira a Cidade"/>
+
+                <StackLayout Padding="15,30">
+                    <Editor x:Name="edtDescricaoDog" Text="{Binding DescricaoDog}" AutoSize="TextChanges"/>
+                </StackLayout>
+                
                 <StackLayout Orientation="Horizontal"
                          HorizontalOptions="Center">
                     <Button x:Name="btnSalvar1" Text="Salvar" Clicked="btnSalvarDog_Clicked" />

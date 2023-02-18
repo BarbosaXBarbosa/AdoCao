@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "hbQ29yyaUNKIfr4DRfsR7N5Uc8y3BHLmyT9b1UEj1Y1Il9m3sB6nr7HU6x3LwaLz4AJJIh745bUzY0gEHHgghQ==",
+  "dgSpecHash": "7C14s/i8T4ssZGK4YDzO/DessSmSIiozYvaK4/QgDADRcNaUa4xD9quo41yredfRC5aPbdC1RfhFlqEvfkCAAQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\asobr\\source\\repos\\BarbosaXBarbosa\\AdoCao\\AdoCao\\AdoCao.iOS\\AdoCao.iOS.csproj",
+  "projectFilePath": "C:\\Users\\asobr\\Desktop\\Versao1702-AdoCao-master\\Versao1702-AdoCao-master\\AdoCao\\AdoCao.iOS\\AdoCao.iOS.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\asobr\\.nuget\\packages\\firebasedatabase.net\\4.1.0\\firebasedatabase.net.4.1.0.nupkg.sha512",
     "C:\\Users\\asobr\\.nuget\\packages\\litedb\\4.1.4\\litedb.4.1.4.nupkg.sha512",
@@ -22,6 +22,7 @@
     "C:\\Users\\asobr\\.nuget\\packages\\system.runtime.interopservices.windowsruntime\\4.3.0\\system.runtime.interopservices.windowsruntime.4.3.0.nupkg.sha512",
     "C:\\Users\\asobr\\.nuget\\packages\\system.valuetuple\\4.5.0\\system.valuetuple.4.5.0.nupkg.sha512",
     "C:\\Users\\asobr\\.nuget\\packages\\xam.plugin.media\\5.0.1\\xam.plugin.media.5.0.1.nupkg.sha512",
+    "C:\\Users\\asobr\\.nuget\\packages\\xamarin.communitytoolkit\\1.3.0\\xamarin.communitytoolkit.1.3.0.nupkg.sha512",
     "C:\\Users\\asobr\\.nuget\\packages\\xamarin.essentials\\1.7.0\\xamarin.essentials.1.7.0.nupkg.sha512",
     "C:\\Users\\asobr\\.nuget\\packages\\xamarin.forms\\5.0.0.2196\\xamarin.forms.5.0.0.2196.nupkg.sha512"
   ],

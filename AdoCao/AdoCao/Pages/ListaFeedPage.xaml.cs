@@ -35,7 +35,14 @@ namespace AdoCao.Pages
         private async void TapGestureRecognizer_Tapped(object sender, EventArgs e)
         {
 
-           await Navigation.PushAsync(new DescricaoCaoPage());
+          // await Navigation.PushAsync(new DescricaoCaoPage());
+        }
+
+        private void PetsListView_Refreshing(object sender, EventArgs e)
+        {
+            PetsListView.IsRefreshing= true;
+            GetCachorros();
+            PetsListView.IsRefreshing = false;
         }
     }
 }

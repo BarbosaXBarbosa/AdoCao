@@ -3,7 +3,10 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="AdoCao.Pages.ListaFeedPage" >
     <ContentPage.Content>
-        <ListView x:Name="PetsListView"
+        <ListView
+            IsPullToRefreshEnabled="true"
+            Refreshing="PetsListView_Refreshing"
+            x:Name="PetsListView"
                   Margin="0,50,0,0">
             <ListView.ItemTemplate>
                 <DataTemplate>
