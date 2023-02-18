@@ -11,6 +11,8 @@
                 <Setter Property="TextColor" 
                         Value="{DynamicResource textColor}" />
             </Style>
-        </ResourceDictionary>
+        </ResourceDictionary>
+
+
     </Application.Resources>
 </Application>

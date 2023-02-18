@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "3S6AnT2Q+0BZC5iXCg1iU9e8ZT/VLyPt+ZPsQCjfFXiZ6+3oD5IDxwGmEKXbmL7VN1ZfQdNDP3ttIByJmCtCDQ==",
+  "dgSpecHash": "WB3oZ+rtczCI+JKHZowsmpSTvS7BhSNoHTtXJoFEhHQDwHIaQjfL12bwFuZkeHL6rhy6Modqhl4vihoYlLaM0g==",
   "success": true,
-  "projectFilePath": "C:\\Users\\asobr\\Desktop\\AdoCao\\AdoCao\\AdoCao\\AdoCao\\AdoCao.csproj",
+  "projectFilePath": "C:\\Users\\asobr\\source\\repos\\BarbosaXBarbosa\\AdoCao\\AdoCao\\AdoCao\\AdoCao.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\asobr\\.nuget\\packages\\firebasedatabase.net\\4.1.0\\firebasedatabase.net.4.1.0.nupkg.sha512",
     "C:\\Users\\asobr\\.nuget\\packages\\litedb\\4.1.4\\litedb.4.1.4.nupkg.sha512",

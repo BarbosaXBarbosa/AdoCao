@@ -15328,11 +15328,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\asobr\\Desktop\\AdoCao\\AdoCao\\AdoCao\\AdoCao.UWP\\AdoCao.UWP.csproj",
+      "projectUniqueName": "C:\\Users\\asobr\\source\\repos\\BarbosaXBarbosa\\AdoCao\\AdoCao\\AdoCao.UWP\\AdoCao.UWP.csproj",
       "projectName": "AdoCao.UWP",
-      "projectPath": "C:\\Users\\asobr\\Desktop\\AdoCao\\AdoCao\\AdoCao\\AdoCao.UWP\\AdoCao.UWP.csproj",
+      "projectPath": "C:\\Users\\asobr\\source\\repos\\BarbosaXBarbosa\\AdoCao\\AdoCao\\AdoCao.UWP\\AdoCao.UWP.csproj",
       "packagesPath": "C:\\Users\\asobr\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\asobr\\Desktop\\AdoCao\\AdoCao\\AdoCao\\AdoCao.UWP\\obj\\",
+      "outputPath": "C:\\Users\\asobr\\source\\repos\\BarbosaXBarbosa\\AdoCao\\AdoCao\\AdoCao.UWP\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [
@@ -15356,8 +15356,8 @@
       "frameworks": {
         "uap10.0.16299": {
           "projectReferences": {
-            "C:\\Users\\asobr\\Desktop\\AdoCao\\AdoCao\\AdoCao\\AdoCao\\AdoCao.csproj": {
-              "projectPath": "C:\\Users\\asobr\\Desktop\\AdoCao\\AdoCao\\AdoCao\\AdoCao\\AdoCao.csproj"
+            "C:\\Users\\asobr\\source\\repos\\BarbosaXBarbosa\\AdoCao\\AdoCao\\AdoCao\\AdoCao.csproj": {
+              "projectPath": "C:\\Users\\asobr\\source\\repos\\BarbosaXBarbosa\\AdoCao\\AdoCao\\AdoCao\\AdoCao.csproj"
             }
           }
         }
