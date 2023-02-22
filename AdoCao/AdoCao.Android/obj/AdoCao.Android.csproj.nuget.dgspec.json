@@ -1,28 +1,26 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\asobr\\source\\repos\\BarbosaXBarbosa\\AdoCao\\AdoCao\\AdoCao.Android\\AdoCao.Android.csproj": {}
+    "C:\\Users\\joao.vbarbosa6\\Documents\\GitHub\\AdoCao\\AdoCao\\AdoCao.Android\\AdoCao.Android.csproj": {}
   },
   "projects": {
-    "C:\\Users\\asobr\\source\\repos\\BarbosaXBarbosa\\AdoCao\\AdoCao\\AdoCao.Android\\AdoCao.Android.csproj": {
+    "C:\\Users\\joao.vbarbosa6\\Documents\\GitHub\\AdoCao\\AdoCao\\AdoCao.Android\\AdoCao.Android.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\asobr\\source\\repos\\BarbosaXBarbosa\\AdoCao\\AdoCao\\AdoCao.Android\\AdoCao.Android.csproj",
+        "projectUniqueName": "C:\\Users\\joao.vbarbosa6\\Documents\\GitHub\\AdoCao\\AdoCao\\AdoCao.Android\\AdoCao.Android.csproj",
         "projectName": "AdoCao.Android",
-        "projectPath": "C:\\Users\\asobr\\source\\repos\\BarbosaXBarbosa\\AdoCao\\AdoCao\\AdoCao.Android\\AdoCao.Android.csproj",
-        "packagesPath": "C:\\Users\\asobr\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\asobr\\source\\repos\\BarbosaXBarbosa\\AdoCao\\AdoCao\\AdoCao.Android\\obj\\",
+        "projectPath": "C:\\Users\\joao.vbarbosa6\\Documents\\GitHub\\AdoCao\\AdoCao\\AdoCao.Android\\AdoCao.Android.csproj",
+        "packagesPath": "C:\\Users\\joao.vbarbosa6\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\joao.vbarbosa6\\Documents\\GitHub\\AdoCao\\AdoCao\\AdoCao.Android\\obj\\",
         "projectStyle": "PackageReference",
         "skipContentFileWrite": true,
         "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
-          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\asobr\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\joao.vbarbosa6\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "monoandroid13.0"
@@ -34,8 +32,8 @@
         "frameworks": {
           "monoandroid13.0": {
             "projectReferences": {
-              "C:\\Users\\asobr\\source\\repos\\BarbosaXBarbosa\\AdoCao\\AdoCao\\AdoCao\\AdoCao.csproj": {
-                "projectPath": "C:\\Users\\asobr\\source\\repos\\BarbosaXBarbosa\\AdoCao\\AdoCao\\AdoCao\\AdoCao.csproj"
+              "C:\\Users\\joao.vbarbosa6\\Documents\\GitHub\\AdoCao\\AdoCao\\AdoCao\\AdoCao.csproj": {
+                "projectPath": "C:\\Users\\joao.vbarbosa6\\Documents\\GitHub\\AdoCao\\AdoCao\\AdoCao\\AdoCao.csproj"
               }
             }
           }
@@ -68,30 +66,29 @@
         }
       }
     },
-    "C:\\Users\\asobr\\source\\repos\\BarbosaXBarbosa\\AdoCao\\AdoCao\\AdoCao\\AdoCao.csproj": {
+    "C:\\Users\\joao.vbarbosa6\\Documents\\GitHub\\AdoCao\\AdoCao\\AdoCao\\AdoCao.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\asobr\\source\\repos\\BarbosaXBarbosa\\AdoCao\\AdoCao\\AdoCao\\AdoCao.csproj",
+        "projectUniqueName": "C:\\Users\\joao.vbarbosa6\\Documents\\GitHub\\AdoCao\\AdoCao\\AdoCao\\AdoCao.csproj",
         "projectName": "AdoCao",
-        "projectPath": "C:\\Users\\asobr\\source\\repos\\BarbosaXBarbosa\\AdoCao\\AdoCao\\AdoCao\\AdoCao.csproj",
-        "packagesPath": "C:\\Users\\asobr\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\asobr\\source\\repos\\BarbosaXBarbosa\\AdoCao\\AdoCao\\AdoCao\\obj\\",
+        "projectPath": "C:\\Users\\joao.vbarbosa6\\Documents\\GitHub\\AdoCao\\AdoCao\\AdoCao\\AdoCao.csproj",
+        "packagesPath": "C:\\Users\\joao.vbarbosa6\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\joao.vbarbosa6\\Documents\\GitHub\\AdoCao\\AdoCao\\AdoCao\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
-          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\asobr\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\joao.vbarbosa6\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netstandard2.0"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -151,11 +148,12 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.416\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
         }
       }
     }

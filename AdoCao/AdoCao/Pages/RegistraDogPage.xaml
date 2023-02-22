@@ -29,7 +29,7 @@
             <Label x:Name="lblSexoDog" Text="Sexo" />
                 <StackLayout>
                     <Label Text="Sexo:" />
-                    <Picker SelectedItem="{Binding Sexo, Mode=TwoWay}">
+                    <Picker SelectedItem="{Binding SexoDog, Mode=TwoWay}">
                         <Picker.ItemsSource>
                             <x:Array Type="{x:Type x:String}">
                                 <x:String>Macho</x:String>
