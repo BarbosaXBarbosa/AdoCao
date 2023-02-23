@@ -49,7 +49,7 @@ namespace AdoCao.Pages
 
             if (cadastro > 0)
             {
-                 _cachorroFirebaseService.AlteraCachorroId(_cachorro.KeyDog);
+                 _cachorroFirebaseService.AlteraCachorroId(_cachorro);
                 await Navigation.PopAsync();
             }
 

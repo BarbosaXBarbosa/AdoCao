@@ -28,7 +28,6 @@
             <Entry x:Name="txtNomeDog" Text="{Binding NomeDog}" Placeholder="Insira o Nome do Cachorro" />
             <Label x:Name="lblSexoDog" Text="Sexo" />
                 <StackLayout>
-                    <Label Text="Sexo:" />
                     <Picker SelectedItem="{Binding SexoDog, Mode=TwoWay}">
                         <Picker.ItemsSource>
                             <x:Array Type="{x:Type x:String}">

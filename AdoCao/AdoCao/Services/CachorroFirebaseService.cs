@@ -80,15 +80,21 @@ namespace AdoCao.Services
             await _firebaseClient.Child(nameof(Cachorro).ToString()).Child(toDeleteUser.Key).DeleteAsync();
         }
 
-        public async void AlteraCachorroId(string keyDog)
+        public async void AlteraCachorroId(Guid idDog,Guid idDono, object cachorro)
         {
             var cachorroAltera = (await _firebaseClient
                          .Child(nameof(Cachorro).ToString())
                          .OnceAsync<Cachorro>())
-                         .Where(a => a.Key == keyDog).FirstOrDefault();
+                         .Where(a => a.Object.IdDog == idDog).FirstOrDefault()
+                         .PutAsync(cachorro);
+                    
 
-            await _firebaseClient.Child(nameof(Cachorro).ToString()).Child(cachorroAltera.Key).PutAsync(cachorroAltera);
+            //await _firebaseClient.Child(nameof(Cachorro).ToString()).Child(cachorroAltera.Key).PutAsync(cachorroAltera);
         }
 
+        internal void AlteraCachorroId(Cachorro cachorro)
+        {
+            throw new NotImplementedException();
+        }
     }
 }
