@@ -10,7 +10,7 @@
     <PackageArchitecture>x64</PackageArchitecture>
     <PackageIdentityName>ec0cc741-fd3e-485c-81be-68815c480690</PackageIdentityName>
     <PackageIdentityPublisher>CN=339AC7E8-85DD-4E45-BC66-6CA81DD61B42</PackageIdentityPublisher>
-    <IntermediateOutputPath>C:\Users\joao.vbarbosa6\Documents\GitHub\AdoCao\AdoCao\AdoCao.UWP\obj\x64\Debug\</IntermediateOutputPath>
+    <IntermediateOutputPath>C:\Users\joao.vbarbosa6\Desktop\Versao1702-AdoCao-master\AdoCao\AdoCao.UWP\obj\x64\Debug\</IntermediateOutputPath>
     <RemoteDeploymentType>
     </RemoteDeploymentType>
     <PackageRegistrationPath>
@@ -18,7 +18,7 @@
     <RemoveNonLayoutFiles>true</RemoveNonLayoutFiles>
     <DeployOptionalPackages>false</DeployOptionalPackages>
     <WindowsSdkPath>C:\Program Files %28x86%29\Windows Kits\10\</WindowsSdkPath>
-    <LayoutDir>C:\Users\joao.vbarbosa6\Documents\GitHub\AdoCao\AdoCao\AdoCao.UWP\bin\x64\Debug\AppX</LayoutDir>
+    <LayoutDir>C:\Users\joao.vbarbosa6\Desktop\Versao1702-AdoCao-master\AdoCao\AdoCao.UWP\bin\x64\Debug\AppX</LayoutDir>
     <RegisteredManifestChecksum>F26A08CB28820A6524D76208653A8A3B3D1DA59FB3D9BC2E730372CB96518557</RegisteredManifestChecksum>
     <RegisteredPackageMoniker>AF336FD3-FDCA-4B6A-B94A-9B475210BC16_1.0.0.0_x64__brbh47mg2tg2r</RegisteredPackageMoniker>
     <RegisteredUserModeAppID>AF336FD3-FDCA-4B6A-B94A-9B475210BC16_brbh47mg2tg2r!App</RegisteredUserModeAppID>
@@ -27,16 +27,16 @@
     <RegisteredVersion>1.0.0.0</RegisteredVersion>
   </PropertyGroup>
   <ItemGroup>
-    <AppXManifest Include="C:\Users\joao.vbarbosa6\Documents\GitHub\AdoCao\AdoCao\AdoCao.UWP\bin\x64\Debug\Core\AppxManifest.xml">
+    <AppXManifest Include="C:\Users\joao.vbarbosa6\Desktop\Versao1702-AdoCao-master\AdoCao\AdoCao.UWP\bin\x64\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2023-02-23T00:06:44.585</Modified>
+      <Modified>2023-02-25T00:12:51.180</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
-    <AppxPackagedFile Include="C:\Users\joao.vbarbosa6\Documents\GitHub\AdoCao\AdoCao\AdoCao.UWP\bin\x64\Debug\AdoCao.UWP.exe">
+    <AppxPackagedFile Include="C:\Users\joao.vbarbosa6\Desktop\Versao1702-AdoCao-master\AdoCao\AdoCao.UWP\bin\x64\Debug\AdoCao.UWP.exe">
       <PackagePath>entrypoint\AdoCao.UWP.exe</PackagePath>
-      <Modified>2023-02-23T00:06:43.275</Modified>
+      <Modified>2023-02-25T00:12:49.712</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\joao.vbarbosa6\.nuget\packages\firebasedatabase.net\4.1.0\lib\netstandard2.0\Firebase.dll">
       <PackagePath>Firebase.dll</PackagePath>
@@ -45,6 +45,26 @@
     <AppxPackagedFile Include="C:\Users\joao.vbarbosa6\.nuget\packages\litedb\4.1.4\lib\netstandard2.0\LiteDB.dll">
       <PackagePath>LiteDB.dll</PackagePath>
       <Modified>2018-06-11T19:04:22.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\joao.vbarbosa6\.nuget\packages\microsoft.bcl.asyncinterfaces\7.0.0\lib\netstandard2.0\Microsoft.Bcl.AsyncInterfaces.dll">
+      <PackagePath>Microsoft.Bcl.AsyncInterfaces.dll</PackagePath>
+      <Modified>2022-10-18T16:20:12.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\joao.vbarbosa6\.nuget\packages\microsoft.extensions.dependencyinjection.abstractions\7.0.0\lib\netstandard2.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll">
+      <PackagePath>Microsoft.Extensions.DependencyInjection.Abstractions.dll</PackagePath>
+      <Modified>2022-10-18T16:20:40.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\joao.vbarbosa6\.nuget\packages\microsoft.extensions.options\7.0.0\lib\netstandard2.0\Microsoft.Extensions.Options.dll">
+      <PackagePath>Microsoft.Extensions.Options.dll</PackagePath>
+      <Modified>2022-10-18T16:21:20.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\joao.vbarbosa6\.nuget\packages\microsoft.extensions.options.dataannotations\7.0.0\lib\netstandard2.0\Microsoft.Extensions.Options.DataAnnotations.dll">
+      <PackagePath>Microsoft.Extensions.Options.DataAnnotations.dll</PackagePath>
+      <Modified>2022-10-18T16:21:40.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\joao.vbarbosa6\.nuget\packages\microsoft.extensions.primitives\7.0.0\lib\netstandard2.0\Microsoft.Extensions.Primitives.dll">
+      <PackagePath>Microsoft.Extensions.Primitives.dll</PackagePath>
+      <Modified>2022-10-18T16:19:18.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\joao.vbarbosa6\.nuget\packages\newtonsoft.json\13.0.1\lib\netstandard2.0\Newtonsoft.Json.dll">
       <PackagePath>Newtonsoft.Json.dll</PackagePath>
@@ -82,9 +102,9 @@
       <PackagePath>System.Reactive.dll</PackagePath>
       <Modified>2018-05-25T16:44:28.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\joao.vbarbosa6\.nuget\packages\system.runtime.compilerservices.unsafe\4.5.3\lib\netstandard2.0\System.Runtime.CompilerServices.Unsafe.dll">
+    <AppxPackagedFile Include="C:\Users\joao.vbarbosa6\.nuget\packages\system.runtime.compilerservices.unsafe\6.0.0\lib\netstandard2.0\System.Runtime.CompilerServices.Unsafe.dll">
       <PackagePath>System.Runtime.CompilerServices.Unsafe.dll</PackagePath>
-      <Modified>2020-02-19T10:05:16.000</Modified>
+      <Modified>2021-10-22T23:40:46.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\joao.vbarbosa6\.nuget\packages\win2d.uwp\1.20.0\runtimes\win10-x64\native\Microsoft.Graphics.Canvas.dll">
       <PackagePath>Microsoft.Graphics.Canvas.dll</PackagePath>
@@ -118,9 +138,9 @@
       <PackagePath>Xamarin.Forms.Xaml.dll</PackagePath>
       <Modified>2021-10-14T09:55:14.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\joao.vbarbosa6\Documents\GitHub\AdoCao\AdoCao\AdoCao\bin\Debug\netstandard2.0\AdoCao.dll">
+    <AppxPackagedFile Include="C:\Users\joao.vbarbosa6\Desktop\Versao1702-AdoCao-master\AdoCao\AdoCao\bin\Debug\netstandard2.0\AdoCao.dll">
       <PackagePath>AdoCao.dll</PackagePath>
-      <Modified>2023-02-23T00:13:07.354</Modified>
+      <Modified>2023-02-25T00:12:42.621</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\joao.vbarbosa6\.nuget\packages\win2d.uwp\1.20.0\lib\uap10.0\Microsoft.Graphics.Canvas.winmd">
       <PackagePath>Microsoft.Graphics.Canvas.winmd</PackagePath>
@@ -134,156 +154,156 @@
       <PackagePath>Xamarin.Forms.Platform.UAP\Xamarin.Forms.Platform.UAP.xr.xml</PackagePath>
       <Modified>2021-10-14T09:49:54.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\joao.vbarbosa6\Documents\GitHub\AdoCao\AdoCao\AdoCao.UWP\Assets\LargeTile.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\joao.vbarbosa6\Desktop\Versao1702-AdoCao-master\AdoCao\AdoCao.UWP\Assets\LargeTile.scale-100.png">
       <PackagePath>Assets\LargeTile.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2023-02-22T23:03:35.505</Modified>
+      <Modified>2023-02-24T22:33:37.466</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\joao.vbarbosa6\Documents\GitHub\AdoCao\AdoCao\AdoCao.UWP\Assets\LargeTile.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\joao.vbarbosa6\Desktop\Versao1702-AdoCao-master\AdoCao\AdoCao.UWP\Assets\LargeTile.scale-200.png">
       <PackagePath>Assets\LargeTile.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2023-02-22T23:03:35.520</Modified>
+      <Modified>2023-02-24T22:33:37.497</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\joao.vbarbosa6\Documents\GitHub\AdoCao\AdoCao\AdoCao.UWP\Assets\LargeTile.scale-400.png">
+    <AppxPackagedFile Include="C:\Users\joao.vbarbosa6\Desktop\Versao1702-AdoCao-master\AdoCao\AdoCao.UWP\Assets\LargeTile.scale-400.png">
       <PackagePath>Assets\LargeTile.scale-400.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2023-02-22T23:03:35.520</Modified>
+      <Modified>2023-02-24T22:33:37.528</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\joao.vbarbosa6\Documents\GitHub\AdoCao\AdoCao\AdoCao.UWP\Assets\SmallTile.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\joao.vbarbosa6\Desktop\Versao1702-AdoCao-master\AdoCao\AdoCao.UWP\Assets\SmallTile.scale-100.png">
       <PackagePath>Assets\SmallTile.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2023-02-22T23:03:35.520</Modified>
+      <Modified>2023-02-24T22:33:37.559</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\joao.vbarbosa6\Documents\GitHub\AdoCao\AdoCao\AdoCao.UWP\Assets\SmallTile.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\joao.vbarbosa6\Desktop\Versao1702-AdoCao-master\AdoCao\AdoCao.UWP\Assets\SmallTile.scale-200.png">
       <PackagePath>Assets\SmallTile.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2023-02-22T23:03:35.520</Modified>
+      <Modified>2023-02-24T22:33:37.591</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\joao.vbarbosa6\Documents\GitHub\AdoCao\AdoCao\AdoCao.UWP\Assets\SmallTile.scale-400.png">
+    <AppxPackagedFile Include="C:\Users\joao.vbarbosa6\Desktop\Versao1702-AdoCao-master\AdoCao\AdoCao.UWP\Assets\SmallTile.scale-400.png">
       <PackagePath>Assets\SmallTile.scale-400.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2023-02-22T23:03:35.520</Modified>
+      <Modified>2023-02-24T22:33:37.622</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\joao.vbarbosa6\Documents\GitHub\AdoCao\AdoCao\AdoCao.UWP\Assets\SplashScreen.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\joao.vbarbosa6\Desktop\Versao1702-AdoCao-master\AdoCao\AdoCao.UWP\Assets\SplashScreen.scale-100.png">
       <PackagePath>Assets\SplashScreen.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2023-02-22T23:03:35.520</Modified>
+      <Modified>2023-02-24T22:33:37.653</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\joao.vbarbosa6\Documents\GitHub\AdoCao\AdoCao\AdoCao.UWP\Assets\SplashScreen.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\joao.vbarbosa6\Desktop\Versao1702-AdoCao-master\AdoCao\AdoCao.UWP\Assets\SplashScreen.scale-200.png">
       <PackagePath>Assets\SplashScreen.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2023-02-22T23:03:35.520</Modified>
+      <Modified>2023-02-24T22:33:37.700</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\joao.vbarbosa6\Documents\GitHub\AdoCao\AdoCao\AdoCao.UWP\Assets\SplashScreen.scale-400.png">
+    <AppxPackagedFile Include="C:\Users\joao.vbarbosa6\Desktop\Versao1702-AdoCao-master\AdoCao\AdoCao.UWP\Assets\SplashScreen.scale-400.png">
       <PackagePath>Assets\SplashScreen.scale-400.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2023-02-22T23:03:35.520</Modified>
+      <Modified>2023-02-24T22:33:37.731</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\joao.vbarbosa6\Documents\GitHub\AdoCao\AdoCao\AdoCao.UWP\Assets\Square150x150Logo.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\joao.vbarbosa6\Desktop\Versao1702-AdoCao-master\AdoCao\AdoCao.UWP\Assets\Square150x150Logo.scale-100.png">
       <PackagePath>Assets\Square150x150Logo.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2023-02-22T23:03:35.520</Modified>
+      <Modified>2023-02-24T22:33:37.762</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\joao.vbarbosa6\Documents\GitHub\AdoCao\AdoCao\AdoCao.UWP\Assets\Square150x150Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\joao.vbarbosa6\Desktop\Versao1702-AdoCao-master\AdoCao\AdoCao.UWP\Assets\Square150x150Logo.scale-200.png">
       <PackagePath>Assets\Square150x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2023-02-22T23:03:35.520</Modified>
+      <Modified>2023-02-24T22:33:37.794</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\joao.vbarbosa6\Documents\GitHub\AdoCao\AdoCao\AdoCao.UWP\Assets\Square150x150Logo.scale-400.png">
+    <AppxPackagedFile Include="C:\Users\joao.vbarbosa6\Desktop\Versao1702-AdoCao-master\AdoCao\AdoCao.UWP\Assets\Square150x150Logo.scale-400.png">
       <PackagePath>Assets\Square150x150Logo.scale-400.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2023-02-22T23:03:35.520</Modified>
+      <Modified>2023-02-24T22:33:37.841</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\joao.vbarbosa6\Documents\GitHub\AdoCao\AdoCao\AdoCao.UWP\Assets\Square44x44Logo.altform-unplated_targetsize-16.png">
+    <AppxPackagedFile Include="C:\Users\joao.vbarbosa6\Desktop\Versao1702-AdoCao-master\AdoCao\AdoCao.UWP\Assets\Square44x44Logo.altform-unplated_targetsize-16.png">
       <PackagePath>Assets\Square44x44Logo.altform-unplated_targetsize-16.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2023-02-22T23:03:35.520</Modified>
+      <Modified>2023-02-24T22:33:37.872</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\joao.vbarbosa6\Documents\GitHub\AdoCao\AdoCao\AdoCao.UWP\Assets\Square44x44Logo.altform-unplated_targetsize-256.png">
+    <AppxPackagedFile Include="C:\Users\joao.vbarbosa6\Desktop\Versao1702-AdoCao-master\AdoCao\AdoCao.UWP\Assets\Square44x44Logo.altform-unplated_targetsize-256.png">
       <PackagePath>Assets\Square44x44Logo.altform-unplated_targetsize-256.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2023-02-22T23:03:35.520</Modified>
+      <Modified>2023-02-24T22:33:37.903</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\joao.vbarbosa6\Documents\GitHub\AdoCao\AdoCao\AdoCao.UWP\Assets\Square44x44Logo.altform-unplated_targetsize-48.png">
+    <AppxPackagedFile Include="C:\Users\joao.vbarbosa6\Desktop\Versao1702-AdoCao-master\AdoCao\AdoCao.UWP\Assets\Square44x44Logo.altform-unplated_targetsize-48.png">
       <PackagePath>Assets\Square44x44Logo.altform-unplated_targetsize-48.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2023-02-22T23:03:35.520</Modified>
+      <Modified>2023-02-24T22:33:37.934</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\joao.vbarbosa6\Documents\GitHub\AdoCao\AdoCao\AdoCao.UWP\Assets\Square44x44Logo.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\joao.vbarbosa6\Desktop\Versao1702-AdoCao-master\AdoCao\AdoCao.UWP\Assets\Square44x44Logo.scale-100.png">
       <PackagePath>Assets\Square44x44Logo.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2023-02-22T23:03:35.536</Modified>
+      <Modified>2023-02-24T22:33:37.966</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\joao.vbarbosa6\Documents\GitHub\AdoCao\AdoCao\AdoCao.UWP\Assets\Square44x44Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\joao.vbarbosa6\Desktop\Versao1702-AdoCao-master\AdoCao\AdoCao.UWP\Assets\Square44x44Logo.scale-200.png">
       <PackagePath>Assets\Square44x44Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2023-02-22T23:03:35.536</Modified>
+      <Modified>2023-02-24T22:33:38.012</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\joao.vbarbosa6\Documents\GitHub\AdoCao\AdoCao\AdoCao.UWP\Assets\Square44x44Logo.scale-400.png">
+    <AppxPackagedFile Include="C:\Users\joao.vbarbosa6\Desktop\Versao1702-AdoCao-master\AdoCao\AdoCao.UWP\Assets\Square44x44Logo.scale-400.png">
       <PackagePath>Assets\Square44x44Logo.scale-400.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2023-02-22T23:03:35.536</Modified>
+      <Modified>2023-02-24T22:33:38.044</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\joao.vbarbosa6\Documents\GitHub\AdoCao\AdoCao\AdoCao.UWP\Assets\Square44x44Logo.targetsize-16.png">
+    <AppxPackagedFile Include="C:\Users\joao.vbarbosa6\Desktop\Versao1702-AdoCao-master\AdoCao\AdoCao.UWP\Assets\Square44x44Logo.targetsize-16.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-16.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2023-02-22T23:03:35.536</Modified>
+      <Modified>2023-02-24T22:33:38.075</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\joao.vbarbosa6\Documents\GitHub\AdoCao\AdoCao\AdoCao.UWP\Assets\Square44x44Logo.targetsize-256.png">
+    <AppxPackagedFile Include="C:\Users\joao.vbarbosa6\Desktop\Versao1702-AdoCao-master\AdoCao\AdoCao.UWP\Assets\Square44x44Logo.targetsize-256.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-256.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2023-02-22T23:03:35.536</Modified>
+      <Modified>2023-02-24T22:33:38.122</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\joao.vbarbosa6\Documents\GitHub\AdoCao\AdoCao\AdoCao.UWP\Assets\Square44x44Logo.targetsize-48.png">
+    <AppxPackagedFile Include="C:\Users\joao.vbarbosa6\Desktop\Versao1702-AdoCao-master\AdoCao\AdoCao.UWP\Assets\Square44x44Logo.targetsize-48.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-48.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2023-02-22T23:03:35.536</Modified>
+      <Modified>2023-02-24T22:33:38.169</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\joao.vbarbosa6\Documents\GitHub\AdoCao\AdoCao\AdoCao.UWP\Assets\StoreLogo.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\joao.vbarbosa6\Desktop\Versao1702-AdoCao-master\AdoCao\AdoCao.UWP\Assets\StoreLogo.scale-100.png">
       <PackagePath>Assets\StoreLogo.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2023-02-22T23:03:35.536</Modified>
+      <Modified>2023-02-24T22:33:38.231</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\joao.vbarbosa6\Documents\GitHub\AdoCao\AdoCao\AdoCao.UWP\Assets\StoreLogo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\joao.vbarbosa6\Desktop\Versao1702-AdoCao-master\AdoCao\AdoCao.UWP\Assets\StoreLogo.scale-200.png">
       <PackagePath>Assets\StoreLogo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2023-02-22T23:03:35.536</Modified>
+      <Modified>2023-02-24T22:33:38.278</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\joao.vbarbosa6\Documents\GitHub\AdoCao\AdoCao\AdoCao.UWP\Assets\StoreLogo.scale-400.png">
+    <AppxPackagedFile Include="C:\Users\joao.vbarbosa6\Desktop\Versao1702-AdoCao-master\AdoCao\AdoCao.UWP\Assets\StoreLogo.scale-400.png">
       <PackagePath>Assets\StoreLogo.scale-400.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2023-02-22T23:03:35.536</Modified>
+      <Modified>2023-02-24T22:33:38.309</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\joao.vbarbosa6\Documents\GitHub\AdoCao\AdoCao\AdoCao.UWP\Assets\Wide310x150Logo.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\joao.vbarbosa6\Desktop\Versao1702-AdoCao-master\AdoCao\AdoCao.UWP\Assets\Wide310x150Logo.scale-100.png">
       <PackagePath>Assets\Wide310x150Logo.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2023-02-22T23:03:35.536</Modified>
+      <Modified>2023-02-24T22:33:38.340</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\joao.vbarbosa6\Documents\GitHub\AdoCao\AdoCao\AdoCao.UWP\Assets\Wide310x150Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\joao.vbarbosa6\Desktop\Versao1702-AdoCao-master\AdoCao\AdoCao.UWP\Assets\Wide310x150Logo.scale-200.png">
       <PackagePath>Assets\Wide310x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2023-02-22T23:03:35.536</Modified>
+      <Modified>2023-02-24T22:33:38.372</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\joao.vbarbosa6\Documents\GitHub\AdoCao\AdoCao\AdoCao.UWP\Assets\Wide310x150Logo.scale-400.png">
+    <AppxPackagedFile Include="C:\Users\joao.vbarbosa6\Desktop\Versao1702-AdoCao-master\AdoCao\AdoCao.UWP\Assets\Wide310x150Logo.scale-400.png">
       <PackagePath>Assets\Wide310x150Logo.scale-400.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2023-02-22T23:03:35.536</Modified>
+      <Modified>2023-02-24T22:33:38.403</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\joao.vbarbosa6\Documents\GitHub\AdoCao\AdoCao\AdoCao.UWP\Properties\Default.rd.xml">
+    <AppxPackagedFile Include="C:\Users\joao.vbarbosa6\Desktop\Versao1702-AdoCao-master\AdoCao\AdoCao.UWP\Properties\Default.rd.xml">
       <PackagePath>Properties\Default.rd.xml</PackagePath>
-      <Modified>2023-02-22T23:03:35.551</Modified>
+      <Modified>2023-02-24T22:33:38.481</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\joao.vbarbosa6\Documents\GitHub\AdoCao\AdoCao\AdoCao.UWP\bin\x64\Debug\AdoCao.UWP.xr.xml">
+    <AppxPackagedFile Include="C:\Users\joao.vbarbosa6\Desktop\Versao1702-AdoCao-master\AdoCao\AdoCao.UWP\bin\x64\Debug\AdoCao.UWP.xr.xml">
       <PackagePath>AdoCao.UWP.xr.xml</PackagePath>
-      <Modified>2023-02-22T23:03:36.159</Modified>
+      <Modified>2023-02-24T22:40:43.586</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\joao.vbarbosa6\Documents\GitHub\AdoCao\AdoCao\AdoCao.UWP\bin\x64\Debug\App.xbf">
+    <AppxPackagedFile Include="C:\Users\joao.vbarbosa6\Desktop\Versao1702-AdoCao-master\AdoCao\AdoCao.UWP\bin\x64\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
-      <Modified>2023-02-23T00:06:43.187</Modified>
+      <Modified>2023-02-25T00:12:49.618</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\joao.vbarbosa6\Documents\GitHub\AdoCao\AdoCao\AdoCao.UWP\bin\x64\Debug\MainPage.xbf">
+    <AppxPackagedFile Include="C:\Users\joao.vbarbosa6\Desktop\Versao1702-AdoCao-master\AdoCao\AdoCao.UWP\bin\x64\Debug\MainPage.xbf">
       <PackagePath>MainPage.xbf</PackagePath>
-      <Modified>2023-02-23T00:06:43.188</Modified>
+      <Modified>2023-02-25T00:12:49.618</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.UniversalCRT.Debug\10.0.22000.0\\redist\Debug\X64\ucrtbased.dll">
       <PackagePath>ucrtbased.dll</PackagePath>
@@ -297,13 +317,13 @@
       <PackagePath>WinMetadata\Microsoft.UI.Xaml.winmd</PackagePath>
       <Modified>2020-07-10T00:07:08.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\joao.vbarbosa6\Documents\GitHub\AdoCao\AdoCao\AdoCao.UWP\bin\x64\Debug\resources.pri">
+    <AppxPackagedFile Include="C:\Users\joao.vbarbosa6\Desktop\Versao1702-AdoCao-master\AdoCao\AdoCao.UWP\bin\x64\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2023-02-22T23:04:45.022</Modified>
+      <Modified>2023-02-24T23:41:02.999</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\joao.vbarbosa6\Documents\GitHub\AdoCao\AdoCao\AdoCao.UWP\bin\x64\Debug\Core\AdoCao.UWP.exe">
+    <AppxPackagedFile Include="C:\Users\joao.vbarbosa6\Desktop\Versao1702-AdoCao-master\AdoCao\AdoCao.UWP\bin\x64\Debug\Core\AdoCao.UWP.exe">
       <PackagePath>AdoCao.UWP.exe</PackagePath>
-      <Modified>2023-02-23T00:06:44.571</Modified>
+      <Modified>2023-02-25T00:12:51.172</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

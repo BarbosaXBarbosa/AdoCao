@@ -68,5 +68,12 @@ namespace AdoCao.Services
             return usuario;
         }
 
+        public async Task<Usuario> ObtemUsuarioCPFEmail(string cpf, string email )
+        {
+            var usuarios = await Lista();
+            var usuario = usuarios.FirstOrDefault(e => e.CPF == cpf || e.Email == email);
+            return usuario;
+        }
+
     }
 }

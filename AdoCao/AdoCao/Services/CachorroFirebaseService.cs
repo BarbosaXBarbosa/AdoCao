@@ -7,6 +7,7 @@ using System.Diagnostics;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Xml.Linq;
 using Xamarin.Essentials;
 
 namespace AdoCao.Services
@@ -14,6 +15,7 @@ namespace AdoCao.Services
     public class CachorroFirebaseService : FirebaseService
     {
         FirebaseClient _firebaseClient;
+
 
         public CachorroFirebaseService()
         {
@@ -43,7 +45,7 @@ namespace AdoCao.Services
             {
                 KeyDog = cachorro.Key,
                 IdDog = cachorro.Object.IdDog,
-                IdDono= cachorro.Object.IdDono,
+                IdDono = cachorro.Object.IdDono,
                 NomeDog = cachorro.Object.NomeDog,
                 SexoDog = cachorro.Object.SexoDog,
                 RacaDog = cachorro.Object.RacaDog,
@@ -80,21 +82,42 @@ namespace AdoCao.Services
             await _firebaseClient.Child(nameof(Cachorro).ToString()).Child(toDeleteUser.Key).DeleteAsync();
         }
 
-        public async void AlteraCachorroId(Guid idDog,Guid idDono, object cachorro)
+        public async void AlteraCachorroId(Guid idDog, Guid idDoDono, string Name, string Sex, string Raca, string Rua, string Numero, string Complemento, string Cep, string Cidade, string Descricao, byte [] Imagem)
         {
             var cachorroAltera = (await _firebaseClient
-                         .Child(nameof(Cachorro).ToString())
-                         .OnceAsync<Cachorro>())
-                         .Where(a => a.Object.IdDog == idDog).FirstOrDefault()
-                         .PutAsync(cachorro);
-                    
+                .Child("Cachorro")
+              .OnceAsync<Cachorro>()).Where(a => a.Object.IdDog == idDog).FirstOrDefault();
 
-            //await _firebaseClient.Child(nameof(Cachorro).ToString()).Child(cachorroAltera.Key).PutAsync(cachorroAltera);
-        }
+            await _firebaseClient
+              .Child("Cachorro")
+              .Child(cachorroAltera.Key)
+              .PutAsync(new Cachorro() 
+              { IdDog = idDog,
+                IdDono = idDoDono, 
+                NomeDog = Name,
+                SexoDog = Sex, 
+                RacaDog = Raca, 
+                RuaDog = Rua, 
+                NumeroDog = Numero, 
+                ComplementoDog = Complemento, 
+                CepDog = Cep, 
+                CidadeDog = Cidade, 
+                DescricaoDog = Descricao, 
+                ImagemDog = Imagem});
 
-        internal void AlteraCachorroId(Cachorro cachorro)
-        {
-            throw new NotImplementedException();
+
+
+            //  .Child(nameof(Cachorro).ToString())
+            //    .OnceAsync<Cachorro>())
+            // .Where(a => a.Key == idDog).FirstOrDefault();
+            //.Where(a => a.Object.IdDog == idDog).FirstOrDefault();
+            //  .Where(a => a.Object.IdDog == idDog).FirstOrDefault();
+
+            // await _firebaseClient.Child(nameof(Cachorro).ToString()).Child(cachorroAltera.Key).PutAsync(cachorroAltera);
+
         }
     }
 }
+
+
+        

@@ -52,12 +52,12 @@ namespace AdoCao.Pages
             //await Navigation.PushAsync(new EditaDogPage(id));
         }
 
-        private void PetsListViewDono_Refreshing(object sender, EventArgs e)
+        /*private void PetsListViewDono_Refreshing(object sender, EventArgs e)
         {
             PetsListViewDono.IsRefreshing = true;
             GetCachorrosDono();
             PetsListViewDono.IsRefreshing = false;
-        }
+        }*/
 
         private async void PetsListViewDono_ItemSelected(object sender, SelectedItemChangedEventArgs e)
         {
@@ -73,6 +73,14 @@ namespace AdoCao.Pages
         private void btnExcluirMeuCachorro_Clicked(object sender, EventArgs e)
         {
 
+        }
+
+        protected override void OnAppearing()
+        {
+            base.OnAppearing();
+            PetsListViewDono.IsRefreshing = true;
+            GetCachorrosDono();
+            PetsListViewDono.IsRefreshing = false;
         }
     }
 }

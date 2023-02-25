@@ -19,10 +19,10 @@
                    HorizontalOptions="Center"/>
 
             <Label x:Name="lblEmail" Text="E-mail" />
-            <Entry x:Name="txtEmail" Placeholder="Digite seu e-mail"/>
+            <Entry x:Name="txtEmail" Placeholder="Digite seu e-mail" MaxLength="20"/>
 
             <Label x:Name="lblSenha" Text="Senha"/>
-            <Entry x:Name="txtSenha" Placeholder="********" IsPassword="True" />
+            <Entry x:Name="txtSenha" Placeholder="********" IsPassword="True" MaxLength="20"/>
 
             <Button x:Name="btnEntrar"
                     Text="Entrar" 

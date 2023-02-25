@@ -38,7 +38,7 @@ namespace AdoCao.Pages
         private async void btnSalvarDog_Clicked(object sender, EventArgs e)
 
         {
-            if (string.IsNullOrWhiteSpace(_cachorro.NomeDog) || 
+            if (string.IsNullOrWhiteSpace(_cachorro.NomeDog) ||
                 string.IsNullOrWhiteSpace(_cachorro.RacaDog) ||
                 string.IsNullOrWhiteSpace(_cachorro.RuaDog) ||
                 string.IsNullOrWhiteSpace(_cachorro.NumeroDog) ||
@@ -49,9 +49,9 @@ namespace AdoCao.Pages
                 await DisplayAlert("Atenção", "Preencha todas as informações obrigatórias", "Fechar");
                 return;
             }
-            
-             var cadastro = await App.BancoDadosDog.CachorroDataTable.SalvaCachorro(_cachorro);
-            
+
+            var cadastro = await App.BancoDadosDog.CachorroDataTable.SalvaCachorro(_cachorro);
+
             if (cadastro > 0)
             {
                 await _cachorroFirebaseService.Envia(_cachorro);
@@ -116,6 +116,20 @@ namespace AdoCao.Pages
             imgFoto.Source = ImageSource.FromStream(() => foto);
             _cachorro.ImagemDog = Helpers.ImagemHelper.ConverteStreamByteArray(foto);
 
+        }
+
+        private async void txtNomeDog_Unfocused(object sender, FocusEventArgs e)
+        {
+            string texto = txtNomeDog.Text;
+            if (texto.Length < 5)
+            {
+                await DisplayAlert("Atenção", "O nome precisa ter mais que 5 caracteres.", "Fechar");
+                return;
+            }
+            else
+            {
+                ((Entry)sender).IsEnabled = true;
+            }
         }
     }
 }

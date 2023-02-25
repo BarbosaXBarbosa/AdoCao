@@ -32,15 +32,23 @@ namespace AdoCao.Pages
             
         }
 
-        private async void TapGestureRecognizer_Tapped(object sender, EventArgs e)
+        private async void PetsListViewDono_ItemSelected(object sender, SelectedItemChangedEventArgs e)
         {
-
-          // await Navigation.PushAsync(new DescricaoCaoPage());
+            Cachorro cachorro = e.SelectedItem as Cachorro;
+            await Navigation.PushAsync(new DescricaoFeedCaoPage(cachorro));
         }
 
         private void PetsListView_Refreshing(object sender, EventArgs e)
         {
             PetsListView.IsRefreshing= true;
+            GetCachorros();
+            PetsListView.IsRefreshing = false;
+        }
+
+        protected override void OnAppearing()
+        {
+            base.OnAppearing();
+            PetsListView.IsRefreshing = true;
             GetCachorros();
             PetsListView.IsRefreshing = false;
         }

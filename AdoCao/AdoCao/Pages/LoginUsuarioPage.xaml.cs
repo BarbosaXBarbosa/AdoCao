@@ -39,7 +39,7 @@ namespace AdoCao.Pages
 
                 //Trocar a pagina principal do aplicativo
                 //App.Current.MainPage = new HomePrincipalPage();
-                App.Current.MainPage = new NavigationPage(new HomePrincipalPage());
+                App.Current.MainPage = new NavigationPage(new HomePrincipalPage(usuario));
             }
             else
             {

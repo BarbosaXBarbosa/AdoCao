@@ -1,13 +1,21 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:xct="http://xamarin.com/schemas/2020/toolkit"
              x:Class="AdoCao.Pages.ListaFeedPage" >
+    <ContentPage.Resources>
+        <ResourceDictionary>
+            <xct:ByteArrayToImageSourceConverter x:Key="ByteArrayToImageSourceConverter" />
+        </ResourceDictionary>
+    </ContentPage.Resources>
     <ContentPage.Content>
         <ListView
             IsPullToRefreshEnabled="true"
             Refreshing="PetsListView_Refreshing"
             x:Name="PetsListView"
-                  Margin="0,50,0,0">
+                  Margin="0,50,0,0"
+            ItemSelected="PetsListViewDono_ItemSelected">
+            
             <ListView.ItemTemplate>
                 <DataTemplate>
                     <ViewCell>
@@ -16,12 +24,7 @@
                                      Margin="0,2,0,0">
                             <StackLayout Orientation="Horizontal"
                                          HorizontalOptions="CenterAndExpand">
-                                <StackLayout.GestureRecognizers>
-                                    <TapGestureRecognizer 
-                                        Tapped="TapGestureRecognizer_Tapped" 
-                                        NumberOfTapsRequired="1" />
-                                </StackLayout.GestureRecognizers>
-                                
+
                                 <Frame CornerRadius="400"
                                        BorderColor="Black"
                                        HeightRequest="150"
@@ -29,8 +32,8 @@
                                        Padding="0"
                                        Margin="5">
 
-                                    <Image Source="{Binding ImagemDog}"
-                                           Aspect="AspectFill"
+                                    <Image Source="{Binding ImagemDog, Converter={StaticResource ByteArrayToImageSourceConverter}}"
+                                           Aspect="AspectFit"
                                            HeightRequest="300"
                                            WidthRequest="300"/>
                                 </Frame>

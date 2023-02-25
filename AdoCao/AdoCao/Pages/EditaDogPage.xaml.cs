@@ -16,6 +16,7 @@ namespace AdoCao.Pages
 	public partial class EditaDogPage : ContentPage
     {
         Cachorro _cachorro;
+        
         CachorroFirebaseService _cachorroFirebaseService;
 
         //Evento para atualizar a pagina
@@ -34,6 +35,7 @@ namespace AdoCao.Pages
 
         {
             if (string.IsNullOrWhiteSpace(_cachorro.NomeDog) ||
+                string.IsNullOrWhiteSpace(_cachorro.SexoDog) ||
                 string.IsNullOrWhiteSpace(_cachorro.RacaDog) ||
                 string.IsNullOrWhiteSpace(_cachorro.RuaDog) ||
                 string.IsNullOrWhiteSpace(_cachorro.NumeroDog) ||
@@ -49,7 +51,7 @@ namespace AdoCao.Pages
 
             if (cadastro > 0)
             {
-                 _cachorroFirebaseService.AlteraCachorroId(_cachorro);
+                 _cachorroFirebaseService.AlteraCachorroId(_cachorro.IdDog, _cachorro.IdDono, _cachorro.NomeDog, _cachorro.SexoDog, _cachorro.RacaDog, _cachorro.RuaDog, _cachorro.NumeroDog, _cachorro.CidadeDog, _cachorro.CepDog, _cachorro.ComplementoDog, _cachorro.DescricaoDog, _cachorro.ImagemDog);
                 await Navigation.PopAsync();
             }
 

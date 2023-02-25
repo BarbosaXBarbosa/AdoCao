@@ -19,7 +19,7 @@
                    />
 
                 <Label x:Name="lblTitulo" 
-                   Text="Edite as informações do seu Cachorro" 
+                   Text="Edite seu Cachorro" 
                    FontSize="Title" 
                    HorizontalOptions="Center"/>
                 <Label x:Name="lblNomeDog" Text="Nome do Cachorro" />

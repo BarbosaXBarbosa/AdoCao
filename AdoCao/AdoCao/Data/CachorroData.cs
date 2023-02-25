@@ -38,7 +38,7 @@ namespace AdoCao.Data
         {
             var cachorro = _conexaoBD
                 .Table<Cachorro>()
-                .Where(e => e.NomeDog == NomeDog && e.SexoDog.ToString() == SexoDog && e.RacaDog == RacaDog && e.RuaDog == RuaDog && e.NumeroDog == NumeroDog && e.ComplementoDog == ComplementoDog && e.CepDog == CepDog && e.CidadeDog == CidadeDog)
+                .Where(e => e.NomeDog == NomeDog && e.SexoDog == SexoDog && e.RacaDog == RacaDog && e.RuaDog == RuaDog && e.NumeroDog == NumeroDog && e.ComplementoDog == ComplementoDog && e.CepDog == CepDog && e.CidadeDog == CidadeDog)
                 .FirstOrDefaultAsync();
             return cachorro;
         }

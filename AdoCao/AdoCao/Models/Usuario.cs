@@ -32,6 +32,8 @@ namespace AdoCao.Models
         [MaxLength(15)]
         public string Confirmasenha { get; set; }
 
+        public byte[] Imagem { get; set; }
+
         //Firebase
         public string Key { get; set; }
 

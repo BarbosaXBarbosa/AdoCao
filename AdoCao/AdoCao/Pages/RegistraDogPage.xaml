@@ -2,31 +2,32 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="AdoCao.Pages.RegistraDogPage">
-    
+
     <ContentPage.Content>
         <ScrollView>
-        <StackLayout VerticalOptions="CenterAndExpand"
+            <StackLayout VerticalOptions="CenterAndExpand"
                      Margin="16"
                      Padding="16">
-            <Button x:Name="TirarFoto"
+                <Button x:Name="TirarFoto"
                     Text="Camera"
                     Clicked="TirarFoto_Clicked"/>
-            <Button x:Name="PegarFoto"
+                <Button x:Name="PegarFoto"
                     Text="Album"
                     Clicked="PegarFoto_Clicked" />
-            
-            <Image x:Name="imgFoto"
+
+                <Image x:Name="imgFoto"
                    Aspect="AspectFit"
                    Source="{Binding ImagemDog}" />
-                
+
                 <Label x:Name="lblTitulo" 
                    Text="Cadastro do Cachorro" 
                    FontSize="Title" 
                    HorizontalOptions="Center"/>
-            
-            <Label x:Name="lblNomeDog" Text="Nome do Cachorro" />
-            <Entry x:Name="txtNomeDog" Text="{Binding NomeDog}" Placeholder="Insira o Nome do Cachorro" />
-            <Label x:Name="lblSexoDog" Text="Sexo" />
+
+                <Label x:Name="lblNomeDog" Text="Nome do Cachorro" />
+                <Entry x:Name="txtNomeDog" Text="{Binding NomeDog}" Placeholder="Insira o Nome do Cachorro" 
+                        Unfocused="txtNomeDog_Unfocused" Keyboard="Text"/>
+                <Label x:Name="lblSexoDog" Text="Sexo" />
                 <StackLayout>
                     <Picker SelectedItem="{Binding SexoDog, Mode=TwoWay}">
                         <Picker.ItemsSource>
@@ -38,29 +39,29 @@
                     </Picker>
                 </StackLayout>
                 <Label x:Name="lblRacaDog" Text="Raça"/>
-            <Entry x:Name="txtRacaDog" Text="{Binding RacaDog}" Placeholder="Insira a Raça do Cachorro" />
-            <Label x:Name="lblRuaDog" Text="Rua"/>
-            <Entry x:Name="txtRuaDog" Text="{Binding RuaDog}" Placeholder="Insira a rua do Cachorro"/>
-            <Label x:Name="lblNumeroDog" Text="Número"/>
-            <Entry x:Name="txtNumeroDog" Text="{Binding NumeroDog}" Placeholder="Insira o Número da Residência"/>
-            <Label x:Name="lblComplementoDog" Text="Complemento (Opcional)"/>
-            <Entry x:Name="txtComplementoDog" Text="{Binding ComplementoDog}" Placeholder="Insira o Complemento"/>
-            <Label x:Name="lblCepDog" Text="CEP"/>
-            <Entry x:Name="txtCepDog" Text="{Binding CepDog}" Placeholder="Insira o Cep"/>
-            <Label x:Name="lblCidadeDog" Text="Cidade"/>
-            <Entry x:Name="txtCidadeDog" Text="{Binding CidadeDog}" Placeholder="Insira a Cidade"/>
-            
+                <Entry x:Name="txtRacaDog" Text="{Binding RacaDog}" Placeholder="Insira a Raça do Cachorro" Keyboard="Text" MaxLength="30" />
+                <Label x:Name="lblRuaDog" Text="Rua"/>
+                <Entry x:Name="txtRuaDog" Text="{Binding RuaDog}" Placeholder="Insira a rua do Cachorro" Keyboard="Text" MaxLength="40"/>
+                <Label x:Name="lblNumeroDog" Text="Número"/>
+                <Entry x:Name="txtNumeroDog" Text="{Binding NumeroDog}" Placeholder="Insira o Número da Residência" Keyboard="Numeric"/>
+                <Label x:Name="lblComplementoDog" Text="Complemento (Opcional)"/>
+                <Entry x:Name="txtComplementoDog" Text="{Binding ComplementoDog}" Placeholder="Insira o Complemento" MaxLength="20" Keyboard="Text"/>
+                <Label x:Name="lblCepDog" Text="CEP"/>
+                <Entry x:Name="txtCepDog" Text="{Binding CepDog}" Placeholder="Insira o Cep" Keyboard="Numeric"/>
+                <Label x:Name="lblCidadeDog" Text="Cidade"/>
+                <Entry x:Name="txtCidadeDog" Text="{Binding CidadeDog}" Placeholder="Insira a Cidade" MaxLength="40" Keyboard="Text"/>
+
                 <StackLayout Padding="15,30">
                     <Editor x:Name="edtDescricaoDog" Text="{Binding DescricaoDog}" Placeholder="*Obrigatorio* Descreva com poucas palavras sobre o cachorro" AutoSize="TextChanges"/>
                 </StackLayout>
-            
+
                 <StackLayout Orientation="Horizontal"
                          HorizontalOptions="Center">
-                <Button x:Name="btnSalvar1" Text="Salvar" Clicked="btnSalvarDog_Clicked" />
-                <Button x:Name="btnVoltar1" Text="Voltar" Clicked="btnVoltarDog_Clicked" />
-            </StackLayout>
+                    <Button x:Name="btnSalvar1" Text="Salvar" Clicked="btnSalvarDog_Clicked" />
+                    <Button x:Name="btnVoltar1" Text="Voltar" Clicked="btnVoltarDog_Clicked" />
+                </StackLayout>
 
-        </StackLayout>
+            </StackLayout>
         </ScrollView>
     </ContentPage.Content>
 </ContentPage>
