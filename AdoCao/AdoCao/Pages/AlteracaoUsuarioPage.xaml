@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AdoCao.Pages.AlteracaoUsuarioPage">
+    <ContentPage.Content>
+        <ScrollView>
+        <StackLayout VerticalOptions="Fill"
+                     Margin="16"
+                     Padding="16">
+                <Label x:Name="lblTitulo" 
+                   Text="Altere seu cadastro" 
+                   FontSize="65"
+                   FontAttributes="Italic"
+                   HorizontalOptions="Center"/>
+
+
+                <Entry x:Name="txtNome" Text="{Binding Nome}" Placeholder="Informe seu nome" Keyboard="Text" MaxLength="60"
+                   Unfocused="txtNome_Unfocused"/>
+                <Label x:Name="lblSenha" Text="Senha"/>
+                <Entry x:Name="txtSenha" Text="{Binding Senha}" Placeholder="********" IsPassword="True" MaxLength="12" Keyboard="Text"
+                   Unfocused="txtSenha_Unfocused"/>
+                <Label x:Name="lblConfirmaSenha" Text="Confirmar Senha" />
+                <Entry x:Name="txtConfirmaSenha" Text="{Binding Confirmasenha}" Placeholder="********" IsPassword="True" MaxLength="12" Keyboard="Text"/>
+                <Label x:Name="lblEndereco" Text="Informe seu endereço" />
+                <Entry x:Name="txtCidade" Text="{Binding Cidade}" Placeholder="Informe sua Cidade" Keyboard="Text" MaxLength="20"
+                   Unfocused="txtCidade_Unfocused"/>
+                <Entry x:Name="txtBairro" Text="{Binding Bairro}" Placeholder="Informe seu Bairro" Keyboard="Text" MaxLength="20"
+                   Unfocused="txtBairro_Unfocused"/>
+                <Entry x:Name="txtRua" Text="{Binding Rua}" Placeholder="Informe sua Rua" Keyboard="Text" MaxLength="20"
+                   Unfocused="txtRua_Unfocused"/>
+                <Entry x:Name="txtNumber" Text="{Binding Numero}" Placeholder="Informe o numero da residência" Keyboard="Numeric" MaxLength="20"
+                   Unfocused="txtNumber_Unfocused"/>
+                <Entry x:Name="txtComplemento" Text="{Binding Complemento}" Placeholder="Complemento(Opcional)" MaxLength="20" Keyboard="Text"/>
+
+            
+                <StackLayout Orientation="Horizontal"
+                         HorizontalOptions="Center">
+                <Button x:Name="btnSalvar" Text="Salvar" Clicked="btnSalvar_Clicked" />
+                <Button x:Name="btnVoltar" Text="Voltar" Clicked="btnVoltar_Clicked" />
+            </StackLayout>
+        </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

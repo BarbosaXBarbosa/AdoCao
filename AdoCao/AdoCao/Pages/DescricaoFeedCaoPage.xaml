@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+              xmlns:xct="http://xamarin.com/schemas/2020/toolkit"
+             x:Class="AdoCao.Pages.DescricaoFeedCaoPage">
+    <ContentPage.Resources>
+        <ResourceDictionary>
+            <xct:ByteArrayToImageSourceConverter x:Key="ByteArrayToImageSourceConverter" />
+        </ResourceDictionary>
+    </ContentPage.Resources>
+
+    <StackLayout VerticalOptions="CenterAndExpand" 
+                HorizontalOptions="CenterAndExpand">
+        <StackLayout >
+
+
+            <StackLayout>
+                <Image Source="{Binding ImagemDog, Converter={StaticResource ByteArrayToImageSourceConverter}}"
+                                       HeightRequest="500"
+                                       WidthRequest="500"></Image>
+            </StackLayout>
+        </StackLayout>
+        <StackLayout Margin="0">
+            <StackLayout Orientation="Horizontal">
+                <Label x:Name="txtNome" 
+                       Text="{Binding NomeDog}" 
+                       FontSize="Title" 
+                       HorizontalOptions="CenterAndExpand" Margin="0,0,0,50"/>
+            </StackLayout>
+            <StackLayout Orientation="Vertical" Margin="0" >
+                <StackLayout Orientation="Horizontal">
+                    <Label Text="Sexo:"
+                               FontSize="Subtitle"/>
+                    <Label x:Name="txtSexo" Text="{Binding SexoDog}"
+                               FontSize="Subtitle"/>
+                </StackLayout>
+                <StackLayout Orientation="Horizontal">
+                    <Label Text="Raça:"
+                               FontSize="Subtitle"/>
+                    <Label x:Name="txtRaca" Text="{Binding RacaDog}"
+                               FontSize="Subtitle"/>
+                </StackLayout>
+                <StackLayout Orientation="Horizontal">
+                    <Label Text="Descrição:"
+                               FontSize="Subtitle"/>
+                    <Label x:Name="txtDescricao" Text="{Binding DescricaoDog}"
+                               FontSize="Subtitle"/>
+                </StackLayout>
+            </StackLayout>
+        </StackLayout>
+    </StackLayout>
+
+
+
+</ContentPage>

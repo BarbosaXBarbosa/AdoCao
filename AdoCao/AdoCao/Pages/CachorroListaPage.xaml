@@ -1,0 +1,98 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:xct="http://xamarin.com/schemas/2020/toolkit"
+             x:Class="AdoCao.Pages.CachorroListaPage">
+    <ContentPage.Resources>
+        <ResourceDictionary>
+            <xct:ByteArrayToImageSourceConverter x:Key="ByteArrayToImageSourceConverter" />
+        </ResourceDictionary>
+    </ContentPage.Resources>
+    <ContentPage.Content>
+       
+        <StackLayout>
+
+            <ListView 
+               
+                x:Name="PetsListViewDono"
+                  Margin="0,50,0,0"
+                ItemSelected="PetsListViewDono_ItemSelected">
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <ViewCell>
+                            <ViewCell.ContextActions>
+                                <MenuItem x:Name="btnEditar"
+                                      Clicked="btnEditMeuCachorro_Clicked"
+                                      CommandParameter="{Binding Id}"
+                                      IsDestructive="False"/>
+                                <MenuItem x:Name="btnExcluir"
+                                      Clicked="btnExcluirMeuCachorro_Clicked"
+                                      CommandParameter="{Binding Id}"
+                                      IsDestructive="False"/>
+                            </ViewCell.ContextActions>
+                            <ViewCell.View>
+                            <StackLayout VerticalOptions="CenterAndExpand" HorizontalOptions="Fill" 
+                                     BackgroundColor="White" Scale="1"
+                                     Margin="0,2,0,0">
+                            <StackLayout Orientation="Horizontal"
+                                         HorizontalOptions="CenterAndExpand">
+                               <!-- <StackLayout.GestureRecognizers>
+                                    <TapGestureRecognizer 
+                                        Tapped="TapGestureRecognizer_Tapped" 
+                                        NumberOfTapsRequired="1" />
+                                </StackLayout.GestureRecognizers>
+                                -->
+                                <Frame CornerRadius="400"
+                                       BorderColor="Black"
+                                       HeightRequest="150"
+                                       WidthRequest="150"
+                                       Padding="0"
+                                       Margin="5">
+
+                                        <Image Source="{Binding ImagemDog, Converter={StaticResource ByteArrayToImageSourceConverter}}"
+                                           Aspect="AspectFit"
+                                           HeightRequest="300"
+                                           WidthRequest="300"/>
+                                </Frame>
+
+                                <StackLayout Orientation="Vertical"
+                                         Margin="50,0,0,0"
+                                             >
+                                    <Label Text="{Binding NomeDog}"
+                                           TextColor="#f35e20"
+                                           FontSize="Medium"/>
+                                    <Label Text="{Binding SexoDog}"
+                                           TextColor="#503026"
+                                           FontSize="Medium"/>
+                                    <Label Text="{Binding RacaDog}"
+                                           TextColor="Black"
+                                           FontSize="Medium"/>
+                                </StackLayout>
+
+                                <StackLayout>
+                                    <Image Source="{Binding Addopted}"/>
+                                </StackLayout>
+                               
+                            </StackLayout>
+                               
+                            </StackLayout>
+
+
+                            </ViewCell.View>
+
+                        </ViewCell>
+                    
+                </DataTemplate>
+                
+            </ListView.ItemTemplate>
+               
+            </ListView>
+       
+            <Button 
+                            x:Name="btnAddMeuCachorro" 
+                                Clicked="btnAddMeuCachorro_Clicked" 
+                                Text="Adicionar Cachorro" />
+        </StackLayout>
+
+    </ContentPage.Content>
+</ContentPage>
