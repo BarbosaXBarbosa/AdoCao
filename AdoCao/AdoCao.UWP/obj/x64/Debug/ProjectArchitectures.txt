@@ -1,1 +1,0 @@
-C:\Users\asobr\source\repos\BarbosaXBarbosa\AdoCao\AdoCao\AdoCao.UWP\AdoCao.UWP.csproj;x64
