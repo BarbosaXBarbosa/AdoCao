@@ -117,16 +117,18 @@ namespace AdoCao.Pages
 
         private async void txtNomeDog_Unfocused(object sender, FocusEventArgs e)
         {
-            string texto = txtNomeDog.Text;
-            if (texto.Length < 5)
+            if (!string.IsNullOrWhiteSpace(txtNomeDog.Text))
             {
-                await DisplayAlert("Atenção", "O nome precisa ter mais que 5 caracteres.", "Fechar");
-                txtNomeDog.Focus();
-                return;
-            }
-            else
-            {
-                ((Entry)sender).IsEnabled = true;
+                if (txtNomeDog.Text.Length < 1)
+                {
+                    await DisplayAlert("Atenção", "O nome deve possuir mais que 1 caracteres.", "Fechar");
+                    txtNomeDog.Focus();
+                    return;
+                }
+                else
+                {
+                    ((Entry)sender).IsEnabled = true;
+                }
             }
         }
     }

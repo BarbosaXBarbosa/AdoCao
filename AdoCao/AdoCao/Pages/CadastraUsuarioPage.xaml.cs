@@ -5,7 +5,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-
+using Xamarin.CommunityToolkit.Converters;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
@@ -78,107 +78,124 @@ namespace AdoCao.Pages
 
         private async void txtNome_Unfocused(object sender, FocusEventArgs e)
         {
-            string texto = txtNome.Text;
-            if (texto.Length < 5)
+            if (!string.IsNullOrWhiteSpace(txtNome.Text))
             {
-                await DisplayAlert("Atenção", "O nome deve possuir mais que 5 caractéres.", "Fechar");
-                txtNome.Focus();
-                return;
-            }
-            else
-            {
-                ((Entry)sender).IsEnabled = true;
+                if (txtNome.Text.Length < 5)
+                {
+                    await DisplayAlert("Atenção", "O nome deve possuir mais que 5 caracteres.", "Fechar");
+                    txtNome.Focus();
+                    return;
+                }
+                else
+                {
+                    ((Entry)sender).IsEnabled = true;
+                }
             }
         }
 
         private async void txtEmail_Unfocused(object sender, FocusEventArgs e)
         {
-            string texto = txtEmail.Text;
-            if (texto.Length < 5)
+            if (!string.IsNullOrWhiteSpace(txtEmail.Text)) 
             {
-                await DisplayAlert("Atenção", "O email deve possuir mais que 5 caracteres.", "Fechar");
-                txtEmail.Focus();
-                return;
+                if (txtEmail.Text.Length < 5)
+                {
+                    await DisplayAlert("Atenção", "O email deve possuir mais que 5 caracteres.", "Fechar");
+                    txtEmail.Focus();
+                    return;
+                }
+                else
+                {
+                    ((Entry)sender).IsEnabled = true;
+                }
             }
-            else
-            {
-                ((Entry)sender).IsEnabled = true;
-            }
+            
+
         }
 
         private async void txtSenha_Unfocused(object sender, FocusEventArgs e)
         {
+            if (!string.IsNullOrWhiteSpace(txtSenha.Text))
+            {
 
-            if (txtSenha.Text.Length < 8)
-            {
-                await DisplayAlert("Atenção", "A senha deve possuir mais que 8 caracteres.", "Fechar");
-                txtSenha.Focus();
-                return;
-            }
-            else
-            {
-                ((Entry)sender).IsEnabled = true;
+                if (txtSenha.Text.Length < 8)
+                {
+                    await DisplayAlert("Atenção", "A senha deve possuir mais que 8 caracteres.", "Fechar");
+                    txtSenha.Focus();
+                    return;
+                }
+                else
+                {
+                    ((Entry)sender).IsEnabled = true;
+                }
             }
         }
 
 
         private async void txtCidade_Unfocused(object sender, FocusEventArgs e)
         {
-            string texto = txtCidade.Text;
-            if (texto.Length < 5)
+            if (!string.IsNullOrWhiteSpace(txtCidade.Text))
             {
-                await DisplayAlert("Atenção", "O nome da cidade deve possuir no mínimo 5 caractéres.", "Fechar");
-                txtCidade.Focus();
-                return;
-            }
-            else
-            {
-                ((Entry)sender).IsEnabled = true;
+                if (txtCidade.Text.Length < 5)
+                {
+                    await DisplayAlert("Atenção", "O Cidade deve possuir mais que 5 caracteres.", "Fechar");
+                    txtCidade.Focus();
+                    return;
+                }
+                else
+                {
+                    ((Entry)sender).IsEnabled = true;
+                }
             }
         }
 
         private async void txtBairro_Unfocused(object sender, FocusEventArgs e)
         {
-            string texto = txtBairro.Text;
-            if (texto.Length < 5)
+            if (!string.IsNullOrWhiteSpace(txtBairro.Text))
             {
-                await DisplayAlert("Atenção", "O bairro deve possuir no mínimo 5 caractéres.", "Fechar");
-                txtBairro.Focus();
-                return;
-            }
-            else
-            {
-                ((Entry)sender).IsEnabled = true;
+                if (txtBairro.Text.Length < 5)
+                {
+                    await DisplayAlert("Atenção", "O Bairro deve possuir mais que 5 caracteres.", "Fechar");
+                    txtBairro.Focus();
+                    return;
+                }
+                else
+                {
+                    ((Entry)sender).IsEnabled = true;
+                }
             }
         }
 
         private async void txtRua_Unfocused(object sender, FocusEventArgs e)
         {
-            string texto = txtRua.Text;
-            if (texto.Length < 5)
+            if (!string.IsNullOrWhiteSpace(txtRua.Text))
             {
-                await DisplayAlert("Atenção", "A rua deve possuir no mínimo 5 caractéres.", "Fechar");
-                txtRua.Focus();
-                return;
-            }
-            else
-            {
-                ((Entry)sender).IsEnabled = true;
+                if (txtRua.Text.Length < 5)
+                {
+                    await DisplayAlert("Atenção", "O rua deve possuir mais que 5 caracteres.", "Fechar");
+                    txtEmail.Focus();
+                    return;
+                }
+                else
+                {
+                    ((Entry)sender).IsEnabled = true;
+                }
             }
         }
 
         private async void txtNumber_Unfocused(object sender, FocusEventArgs e)
         {
-            string texto = txtNumber.Text;
-            if (texto.Length < 5)
+            if (!string.IsNullOrWhiteSpace(txtNumber.Text))
             {
-                await DisplayAlert("Atenção", "Este número é muito grande!", "Fechar");
-                txtNumber.Focus();
-                return;
-            }
-            else
-            {
-                ((Entry)sender).IsEnabled = true;
+                if (txtNumber.Text.Length < 1)
+                {
+                    await DisplayAlert("Atenção", "O número deve possuir mais que 1 caracteres.", "Fechar");
+                    txtNumber.Focus();
+                    return;
+                }
+                else
+                {
+                    ((Entry)sender).IsEnabled = true;
+                }
             }
         }
 
